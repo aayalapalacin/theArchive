@@ -12,111 +12,115 @@ function Click_photo() {
         >
           <button
             class="nav-link active"
-            id="v-pills-home-tab"
+            id="v-pills-photo1-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-home"
+            data-bs-target="#v-pills-photo1"
             type="button"
             role="tab"
-            aria-controls="v-pills-home"
+            aria-controls="v-pills-photo1"
             aria-selected="true"
           >
-            Home
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-dynamic1-pdp?fmt=jpeg&qlt=70,1&op_sharpen=0&resMode=sharp2&op_usm=0.8,1,10,0&fit=crop,0&wid=150&hei=150"
+              alt="highRiseCoat"
+            />
           </button>
           <button
             class="nav-link"
-            id="v-pills-profile-tab"
+            id="v-pills-photo2-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-profile"
+            data-bs-target="#v-pills-photo2"
             type="button"
             role="tab"
-            aria-controls="v-pills-profile"
+            aria-controls="v-pills-photo2"
             aria-selected="false"
           >
-            Profile
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-front-pdp?fmt=jpeg&qlt=70,1&op_sharpen=0&resMode=sharp2&op_usm=0.8,1,10,0&fit=crop,0&wid=150&hei=150"
+              alt="highRiseHat"
+            />
+          </button>
+
+          <button
+            class="nav-link"
+            id="v-pills-photo3-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-photo3"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-photo3"
+            aria-selected="false"
+          >
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-side-pdp?fmt=jpeg&qlt=70,1&op_sharpen=0&resMode=sharp2&op_usm=0.8,1,10,0&fit=crop,0&wid=150&hei=150"
+              alt="highRiseHatSize"
+            />
           </button>
           <button
             class="nav-link"
-            id="v-pills-disabled-tab"
+            id="v-pills-photo4-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-disabled"
+            data-bs-target="#v-pills-photo4"
             type="button"
             role="tab"
-            aria-controls="v-pills-disabled"
-            aria-selected="false"
-            disabled
-          >
-            Disabled
-          </button>
-          <button
-            class="nav-link"
-            id="v-pills-messages-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#v-pills-messages"
-            type="button"
-            role="tab"
-            aria-controls="v-pills-messages"
+            aria-controls="v-pills-photo4"
             aria-selected="false"
           >
-            Messages
-          </button>
-          <button
-            class="nav-link"
-            id="v-pills-settings-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#v-pills-settings"
-            type="button"
-            role="tab"
-            aria-controls="v-pills-settings"
-            aria-selected="false"
-          >
-            Settings
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-back-pdp?fmt=jpeg&qlt=70,1&op_sharpen=0&resMode=sharp2&op_usm=0.8,1,10,0&fit=crop,0&wid=150&hei=150"
+              alt="highRiseBack"
+            />
           </button>
         </div>
         <div class="tab-content" id="v-pills-tabContent">
           <div
             class="tab-pane fade show active"
-            id="v-pills-home"
+            id="v-pills-photo1"
             role="tabpanel"
-            aria-labelledby="v-pills-home-tab"
+            aria-labelledby="v-pills-photo1-tab"
             tabindex="0"
           >
-            test1
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-dynamic1-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=655"
+              alt="highRiseCoatBig"
+            />
           </div>
           <div
             class="tab-pane fade"
-            id="v-pills-profile"
+            id="v-pills-photo2"
             role="tabpanel"
-            aria-labelledby="v-pills-profile-tab"
+            aria-labelledby="v-pills-photo2-tab"
             tabindex="0"
           >
-            test2
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-front-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=655"
+              alt="highRiseHat"
+            />
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="v-pills-photo3"
+            role="tabpanel"
+            aria-labelledby="v-pills-photo3-tab"
+            tabindex="0"
+          >
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-side-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=655"
+              alt="highRiseHatSideBig"
+            />
           </div>
           <div
             class="tab-pane fade"
-            id="v-pills-disabled"
+            id="v-pills-photo4"
             role="tabpanel"
-            aria-labelledby="v-pills-disabled-tab"
+            aria-labelledby="v-pills-photo4-tab"
             tabindex="0"
           >
-            test3
-          </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-messages"
-            role="tabpanel"
-            aria-labelledby="v-pills-messages-tab"
-            tabindex="0"
-          >
-            test4
-          </div>
-          <div
-            class="tab-pane fade"
-            id="v-pills-settings"
-            role="tabpanel"
-            aria-labelledby="v-pills-settings-tab"
-            tabindex="0"
-          >
-            test5
+            <img
+              src="https://lsco.scene7.com/is/image/lsco/188830016-back-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=750&amp;hei=690"
+              alt="highRiseBackBig"
+            />
           </div>
         </div>
       </div>
