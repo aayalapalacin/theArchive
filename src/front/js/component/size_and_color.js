@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export const SizeAndColor = () => (
-	<div>
-		
-	</div>
-);
+function Size_and_color() {
+  return <div>Size_and_color</div>;
+}
+
+export default Size_and_color;

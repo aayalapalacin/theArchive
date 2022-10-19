@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export const WaistAndLength = () => (
-	<div>
-		
-	</div>
-);
+function Waist_and_length() {
+  return <div>Waist_and_length</div>;
+}
+
+export default Waist_and_length;
