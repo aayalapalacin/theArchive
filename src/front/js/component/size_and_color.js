@@ -1,7 +1,7 @@
 import React from "react";
 
 function Size_and_color() {
-  return <div>Size_and_color</div>;
+  return <div> this is my Size and color test div</div>;
 }
 
 export default Size_and_color;
