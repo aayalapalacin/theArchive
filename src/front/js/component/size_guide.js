@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export const SizeGuide = () => (
-	<div>
-		
-	</div>
-);
+function Size_guide() {
+  return <div>Size_guide</div>;
+}
+
+export default Size_guide;

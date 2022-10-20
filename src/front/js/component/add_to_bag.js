@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export const AddToBag = () => (
-	<div>
-		
-	</div>
-);
+function Add_to_bag() {
+  return <div>Add_to_bag</div>;
+}
+
+export default Add_to_bag;

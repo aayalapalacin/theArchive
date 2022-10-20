@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
-export const ItemDescription = () => (
-	<div>
-		
-	</div>
-);
+function Item_description() {
+  return <div>Item_description</div>;
+}
+
+export default Item_description;
