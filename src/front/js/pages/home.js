@@ -4,6 +4,7 @@ import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import Click_photo from "../component/click_photo";
 import Size_and_color from "../component/size_and_color";
+import { WaistAndLength } from "../component/waist_and_length";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -20,7 +21,7 @@ export const Home = () => {
             {" "}
             <Size_and_color />
           </div>
-          <div className="row waistLength"> waistLength</div>
+          <div className="row waistLength"> <WaistAndLength /></div>
           <div className="row sizeGuide ">sizeGuide</div>
           <div className="row addToBag"> addToBag</div>
         </div>
