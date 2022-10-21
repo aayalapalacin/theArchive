@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
+import "../../styles/click_photo.css";
 
 function Click_photo() {
+  const ref = useRef(null);
+  useEffect(() => {
+    console.log("test", ref.current.classList);
+    if (ref.current.classList.contains("active")) {
+      console.log("sucess");
+    } else {
+      console.log("Element does NOT contain class");
+    }
+  }, []);
   return (
     <div>
-      <div class="d-flex align-items-start">
+      <div className="d-flex align-items-start">
         <div
-          class="nav flex-column nav-pills me-3"
+          className="nav flex-column nav-pills me-3"
           id="v-pills-tab"
           role="tablist"
           aria-orientation="vertical"
         >
           <button
-            class="nav-link active"
+            ref={ref}
+            className="nav-link active clickPhotoSmall p-1 "
             id="v-pills-photo1-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-photo1"
@@ -26,7 +37,7 @@ function Click_photo() {
             />
           </button>
           <button
-            class="nav-link"
+            className="nav-link clickPhotoSmall p-1"
             id="v-pills-photo2-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-photo2"
@@ -42,7 +53,7 @@ function Click_photo() {
           </button>
 
           <button
-            class="nav-link"
+            className="nav-link clickPhotoSmall p-1"
             id="v-pills-photo3-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-photo3"
@@ -57,7 +68,7 @@ function Click_photo() {
             />
           </button>
           <button
-            class="nav-link"
+            className="nav-link clickPhotoSmall p-1"
             id="v-pills-photo4-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-photo4"
@@ -72,9 +83,9 @@ function Click_photo() {
             />
           </button>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
+        <div className="tab-content" id="v-pills-tabContent">
           <div
-            class="tab-pane fade show active"
+            className="tab-pane  show active"
             id="v-pills-photo1"
             role="tabpanel"
             aria-labelledby="v-pills-photo1-tab"
@@ -86,7 +97,7 @@ function Click_photo() {
             />
           </div>
           <div
-            class="tab-pane fade"
+            className="tab-pane "
             id="v-pills-photo2"
             role="tabpanel"
             aria-labelledby="v-pills-photo2-tab"
@@ -99,7 +110,7 @@ function Click_photo() {
           </div>
 
           <div
-            class="tab-pane fade"
+            className="tab-pane "
             id="v-pills-photo3"
             role="tabpanel"
             aria-labelledby="v-pills-photo3-tab"
@@ -111,7 +122,7 @@ function Click_photo() {
             />
           </div>
           <div
-            class="tab-pane fade"
+            className="tab-pane "
             id="v-pills-photo4"
             role="tabpanel"
             aria-labelledby="v-pills-photo4-tab"
