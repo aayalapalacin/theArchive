@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/size_and_color.css";
+import WhatsMySize from "./whats_my_size";
 
 const SizeAndColor = () => { 
   const [chosenColor, setChosenColor] = useState(false);  // initialized false to avoid controlled component warning. will become int 
@@ -106,7 +107,7 @@ const SizeAndColor = () => {
               {expandOptions ? chevronUp : chevronDown}
           </label>
         </div>
-
+        <WhatsMySize />
     </div>
   );
 };

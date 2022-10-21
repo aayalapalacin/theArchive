@@ -1,7 +1,7 @@
 import React from "react";
 
-function Add_to_bag() {
-  return <div>Add_to_bag</div>;
+const AddToBag = () => {
+  return <button className="add-to-bag">Add To Bag</button>
 }
 
-export default Add_to_bag;
+export default AddToBag;
