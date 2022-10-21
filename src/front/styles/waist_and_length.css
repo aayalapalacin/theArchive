@@ -1,0 +1,52 @@
+.waist-length-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica-Now-Text-Regular,Helvetica,Arial,sans-serif;
+    padding-bottom: 30px;
+}
+
+.waist-length-container > label {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px
+
+}
+
+.waist-length-container>div {
+    display: flex;
+    font-size: 12px
+}
+
+.size-radio span {
+    margin: 5px;
+    padding: 5px;
+}
+
+.size-radio span:hover {
+    background-color: whitesmoke;
+}
+
+.size-radio input {
+    position: absolute;
+    opacity: 0;
+}
+
+.size-radio input + span {
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+
+.size-radio input:checked + span {
+outline: 1px solid black;
+} 
+
+.expand-options-checkbox input {
+    opacity: 0%;
+    position: absolute;
+}
