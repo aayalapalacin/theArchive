@@ -85,7 +85,7 @@ function Click_photo() {
         </div>
         <div className="tab-content" id="v-pills-tabContent">
           <div
-            className="tab-pane fade show active"
+            className="tab-pane  show active"
             id="v-pills-photo1"
             role="tabpanel"
             aria-labelledby="v-pills-photo1-tab"
@@ -97,7 +97,7 @@ function Click_photo() {
             />
           </div>
           <div
-            className="tab-pane fade"
+            className="tab-pane "
             id="v-pills-photo2"
             role="tabpanel"
             aria-labelledby="v-pills-photo2-tab"
@@ -110,7 +110,7 @@ function Click_photo() {
           </div>
 
           <div
-            className="tab-pane fade"
+            className="tab-pane "
             id="v-pills-photo3"
             role="tabpanel"
             aria-labelledby="v-pills-photo3-tab"
@@ -122,7 +122,7 @@ function Click_photo() {
             />
           </div>
           <div
-            className="tab-pane fade"
+            className="tab-pane "
             id="v-pills-photo4"
             role="tabpanel"
             aria-labelledby="v-pills-photo4-tab"
