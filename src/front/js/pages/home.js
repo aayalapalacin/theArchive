@@ -16,8 +16,15 @@ export const Home = () => {
       <div className="row clickPhotos">
         <Click_photo />
       </div>
-      <div className="row sizeColor"></div>
-      <div className="row mayAlsoLike"></div>
+      <div className="row sizeColor">
+        {" "}
+        <Size_and_color />{" "}
+      </div>
+      <div className="row waistAndLength">
+        {" "}
+        <WaistAndLength />{" "}
+      </div>
+
       {/* footer in footer.js and layout.js */}
     </div>
   );
