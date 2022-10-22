@@ -1,3 +1,10 @@
+.whats-my-size-main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
 .modal-body {
     display: flex;
     flex-direction: column;
@@ -61,6 +68,7 @@
     border: none;
     display: flex;
     align-items: center;
+    margin-right: 10vw;
 }
 
 .whats-my-size-button img {
@@ -149,4 +157,30 @@ a {
 a:hover {
     color: gray;
     cursor: pointer;
+}
+
+.size-header {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .modal-dialog {
+        position: fixed;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: 0;
+        width: 96vw;
+    }
+
+    .size-header {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 14px;
+        color: black;
+    }
+
+    .whats-my-size-main {
+        justify-content: space-between;
+    }
 }

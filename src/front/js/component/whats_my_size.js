@@ -17,46 +17,50 @@ const WhatsMySize = () => {
     
     return(
         <div>
-            <button type="button" className="whats-my-size-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHFSURBVHgB7ZZNSAJBFIDfbEGHNIuOQUH0Q5CQRJZkouAxAiuE9NSxwFtCEpGePHXpYFej9Fgnu0QpKEEa9GNgP56EroHuXpTYbd+EouDP7qa3Pth9M8vMfLzHzO4CyEQQBC9ecuYQvI33aqzA8Pti19RqwnshT+NEn6bZqg8Mz++8cdwNdplJVb8FGOFKigD5zOVoHBoebjxIAB1PmOsxlcpMJTzwhyCDzHOaxvklY8uxhJADKhFT04EMkok4jTaHU8JoYv6VyOQ8FAY2n6eZ6I2ts1EkKYiCYCBA2y6PR9Ic2RLkJHBcyUaKSJEEs9nacNC2y7PbUtQ12NPjBQXgVkaZyWqlGak1/fCYSkGpWKwZ91Uq+hRLkKfUPRXp5uaoaHl9jZYxk07XSMi4uk+AP4IH8+wyUjmgmOVdPAEX4RCcRiIDbZGUsTkdsO12w8joaPXjYFslZWYNC7Bit8OMXg9TWu1mXUn0Jd3w3YSlsExrQSofbIEo2sJy6Ui5qulYJljuVaej0u+GDnDk90NS3MJl/svVlDrlUkfLX7B2I/7VxLIca2HEhg86RDeBPYxMluNiPAiLaIU2gWsJ32B4Zdlb7P8A/Iy2jlV/XfwAAAAASUVORK5CYII="/>
-                <span>What's My Size?</span>
-            </button>
+            <div className='whats-my-size-main'>
+                <div className='size-header'>Select Your Size</div>
+                <button type="button" className="whats-my-size-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHFSURBVHgB7ZZNSAJBFIDfbEGHNIuOQUH0Q5CQRJZkouAxAiuE9NSxwFtCEpGePHXpYFej9Fgnu0QpKEEa9GNgP56EroHuXpTYbd+EouDP7qa3Pth9M8vMfLzHzO4CyEQQBC9ecuYQvI33aqzA8Pti19RqwnshT+NEn6bZqg8Mz++8cdwNdplJVb8FGOFKigD5zOVoHBoebjxIAB1PmOsxlcpMJTzwhyCDzHOaxvklY8uxhJADKhFT04EMkok4jTaHU8JoYv6VyOQ8FAY2n6eZ6I2ts1EkKYiCYCBA2y6PR9Ic2RLkJHBcyUaKSJEEs9nacNC2y7PbUtQ12NPjBQXgVkaZyWqlGak1/fCYSkGpWKwZ91Uq+hRLkKfUPRXp5uaoaHl9jZYxk07XSMi4uk+AP4IH8+wyUjmgmOVdPAEX4RCcRiIDbZGUsTkdsO12w8joaPXjYFslZWYNC7Bit8OMXg9TWu1mXUn0Jd3w3YSlsExrQSofbIEo2sJy6Ui5qulYJljuVaej0u+GDnDk90NS3MJl/svVlDrlUkfLX7B2I/7VxLIca2HEhg86RDeBPYxMluNiPAiLaIU2gWsJ32B4Zdlb7P8A/Iy2jlV/XfwAAAAASUVORK5CYII="/>
+                    <span>What's My Size?</span>
+                </button>
+            </div>
+            
             
             <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
-                    <div className="modal-header">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHFSURBVHgB7ZZNSAJBFIDfbEGHNIuOQUH0Q5CQRJZkouAxAiuE9NSxwFtCEpGePHXpYFej9Fgnu0QpKEEa9GNgP56EroHuXpTYbd+EouDP7qa3Pth9M8vMfLzHzO4CyEQQBC9ecuYQvI33aqzA8Pti19RqwnshT+NEn6bZqg8Mz++8cdwNdplJVb8FGOFKigD5zOVoHBoebjxIAB1PmOsxlcpMJTzwhyCDzHOaxvklY8uxhJADKhFT04EMkok4jTaHU8JoYv6VyOQ8FAY2n6eZ6I2ts1EkKYiCYCBA2y6PR9Ic2RLkJHBcyUaKSJEEs9nacNC2y7PbUtQ12NPjBQXgVkaZyWqlGak1/fCYSkGpWKwZ91Uq+hRLkKfUPRXp5uaoaHl9jZYxk07XSMi4uk+AP4IH8+wyUjmgmOVdPAEX4RCcRiIDbZGUsTkdsO12w8joaPXjYFslZWYNC7Bit8OMXg9TWu1mXUn0Jd3w3YSlsExrQSofbIEo2sJy6Ui5qulYJljuVaej0u+GDnDk90NS3MJl/svVlDrlUkfLX7B2I/7VxLIca2HEhg86RDeBPYxMluNiPAiLaIU2gWsJ32B4Zdlb7P8A/Iy2jlV/XfwAAAAASUVORK5CYII="/>
-                        <button type="button" className="close-button" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div className="modal-body">
-                        <div className="modal-header-text">
-                            <div>Enter your details</div>
-                            <div>to get your size, quick & easy.</div> 
+                        <div className="modal-header">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHFSURBVHgB7ZZNSAJBFIDfbEGHNIuOQUH0Q5CQRJZkouAxAiuE9NSxwFtCEpGePHXpYFej9Fgnu0QpKEEa9GNgP56EroHuXpTYbd+EouDP7qa3Pth9M8vMfLzHzO4CyEQQBC9ecuYQvI33aqzA8Pti19RqwnshT+NEn6bZqg8Mz++8cdwNdplJVb8FGOFKigD5zOVoHBoebjxIAB1PmOsxlcpMJTzwhyCDzHOaxvklY8uxhJADKhFT04EMkok4jTaHU8JoYv6VyOQ8FAY2n6eZ6I2ts1EkKYiCYCBA2y6PR9Ic2RLkJHBcyUaKSJEEs9nacNC2y7PbUtQ12NPjBQXgVkaZyWqlGak1/fCYSkGpWKwZ91Uq+hRLkKfUPRXp5uaoaHl9jZYxk07XSMi4uk+AP4IH8+wyUjmgmOVdPAEX4RCcRiIDbZGUsTkdsO12w8joaPXjYFslZWYNC7Bit8OMXg9TWu1mXUn0Jd3w3YSlsExrQSofbIEo2sJy6Ui5qulYJljuVaej0u+GDnDk90NS3MJl/svVlDrlUkfLX7B2I/7VxLIca2HEhg86RDeBPYxMluNiPAiLaIU2gWsJ32B4Zdlb7P8A/Iy2jlV/XfwAAAAASUVORK5CYII="/>
+                            <button type="button" className="close-button" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
                         </div>
-                        <div>
-                            <p>Gender</p>
-                            <div className="gender-options">
-                                <label>
-                                    <input
-                                        type="radio"
-                                        name="gender"
-                                        value={myGender}
-                                    />
-                                    <div>Women</div>
-                                </label>
-                                <label>
-                                    <input
-                                        type="radio"
-                                        name="gender"
-                                        value={myGender}
-                                    />
-                                    <div>Men</div>
-                                </label>
+                        <div className="modal-body">
+                            <div className="modal-header-text">
+                                <div>Enter your details</div>
+                                <div>to get your size, quick & easy.</div> 
                             </div>
-                        </div>
+                            <div>
+                                <p>Gender</p>
+                                <div className="gender-options">
+                                    <label>
+                                        <input
+                                            type="radio"
+                                            name="gender"
+                                            value={myGender}
+                                        />
+                                        <div>Women</div>
+                                    </label>
+                                    <label>
+                                        <input
+                                            type="radio"
+                                            name="gender"
+                                            value={myGender}
+                                        />
+                                        <div>Men</div>
+                                    </label>
+                                </div>
+                            </div>
                         <div className="measurements">
                             <div>
                                 <p>Height</p>
