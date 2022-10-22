@@ -10,22 +10,22 @@ export const Home = () => {
   const { store, actions } = useContext(Context);
 
   return (
-    <div container>
-      <div className="row bodyContent">
-        <div className="col-7 clickablePhotos bg-warning ">
-          <Click_photo />
-        </div>
-        <div className="col-5 productRightSide bg-danger">
-          <div className="row itemDescription">itemDescription</div>
-          <div className="row sizeColor">
-            {" "}
-            <Size_and_color />
-          </div>
-          <div className="row waistLength"> <WaistAndLength /></div>
-          <div className="row sizeGuide ">sizeGuide</div>
-          <div className="row addToBag"> addToBag</div>
-        </div>
+    <div className="container">
+      {/* navbar in navbar.js and layout.js */}
+      <div className="row reviews"></div>
+      <div className="row clickPhotos">
+        <Click_photo />
       </div>
+      <div className="row sizeColor">
+        {" "}
+        <Size_and_color />{" "}
+      </div>
+      <div className="row waistAndLength">
+        {" "}
+        <WaistAndLength />{" "}
+      </div>
+
+      {/* footer in footer.js and layout.js */}
     </div>
   );
 };
