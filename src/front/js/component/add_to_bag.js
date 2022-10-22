@@ -1,7 +1,13 @@
 import React from "react";
 
-function Add_to_bag() {
-  return <div>Add_to_bag</div>;
+const AddToBag = () => {
+  return (
+    <div className="add-to-bag-container">
+      <button className="add-to-bag">Add To Bag</button>
+      <button className="favorite-button"></button>
+    </div>
+
+  )
 }
 
-export default Add_to_bag;
+export default AddToBag;

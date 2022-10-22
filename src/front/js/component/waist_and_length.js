@@ -29,7 +29,7 @@ export const WaistAndLength = () => {
                 checked={waistSize == sizeOption}
                 name="waistSize"
               />
-              <span>{sizeOption}</span>
+              <div>{sizeOption}</div>
             </label>
           )
         })}
@@ -45,7 +45,7 @@ export const WaistAndLength = () => {
                 checked={length == lengthOption}
                 name="length"
               />
-              <span>{lengthOption}</span>
+              <div>{lengthOption}</div>
             </label>
           )
         })}
