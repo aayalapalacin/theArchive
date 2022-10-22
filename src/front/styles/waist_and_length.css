@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column;
     font-family: Helvetica-Now-Text-Regular,Helvetica,Arial,sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: thin whitesmoke solid;
 }
 
 .waist-length-container > label {
@@ -48,6 +49,11 @@
 .size-radio input:checked + div {
 outline: 1px solid black;
 } 
+
+.size-guide {
+    display: flex;
+    flex-direction: column;
+}
 
 /* .expand-options-checkbox input {
     opacity: 0%;

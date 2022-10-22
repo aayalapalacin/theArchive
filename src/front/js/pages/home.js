@@ -9,6 +9,8 @@ import Name_and_review from "../component/name_and_review";
 import AddToBag from "../component/add_to_bag";
 import WhatsMySize from "../component/whats_my_size";
 import { Footer } from "../component/footer";
+import ProductPrice from "../component/product_price";
+import ShippingAndQuantity from "../component/shipping_and_quantity";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -18,6 +20,9 @@ export const Home = () => {
       {/* navbar in navbar.js and layout.js */}
       <div className="row reviews px-3">
         <Name_and_review />
+      </div>
+      <div className="row productPrice hide-in-mobile-view">
+        <ProductPrice />
       </div>
       <div className="row clickPhotos">
         <Click_photo />
@@ -33,6 +38,12 @@ export const Home = () => {
       </div>
       <div className="row addToBag hide-in-mobile-view">
         <AddToBag />
+      </div>
+      <div className="row productPrice hide-in-web-view">
+        <ProductPrice />
+      </div>
+      <div className="row shippingAndQuantity">
+        <ShippingAndQuantity />
       </div>
       {/* footer in footer.js and layout.js */}
         {/* <Footer /> */}

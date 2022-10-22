@@ -1,8 +1,10 @@
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "../../styles/waist_and_length.css";
 
 
-export const WaistAndLength = () => {
+export const WaistAndLength = ({product, model = {height: `5'9"`, waist: '27'}}) => {
   const [waistSize, setWaistSize] = useState();
   const [length, setLength] = useState();
 
@@ -10,6 +12,10 @@ export const WaistAndLength = () => {
   const waistSizeOptions = [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33];
   const lengthOptions = [26, 28, 30];
   //
+
+  const test = () => {
+    console.log('im here', model)
+  }
 
   
   const updateWaistSize = (e) => setWaistSize(e.target.value);
@@ -20,6 +26,8 @@ export const WaistAndLength = () => {
     <div className="waist-length-container">
       <label for="waist-size">Waist</label>
       <div onChange={(e) => updateWaistSize(e)} className="size-radio">
+        {test()}
+
         {waistSizeOptions.map((sizeOption) => {
           return(
             <label>
@@ -49,6 +57,14 @@ export const WaistAndLength = () => {
             </label>
           )
         })}
+      </div>
+      <div className='size-guide'>
+        <div>
+          <FontAwesomeIcon icon="fa-solid fa-chart-simple"/>
+          <span>Size Guide</span>
+        </div>
+        <p><strong>Fit:</strong> Customers say {product ? product.fit : '________'}</p>
+        <p>Model is {test()} {model.height} wearing a size {model.waist} waist</p>
       </div>
     </div>
   );
