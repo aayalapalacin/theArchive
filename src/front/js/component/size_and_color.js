@@ -107,7 +107,6 @@ const SizeAndColor = () => {
               {expandOptions ? chevronUp : chevronDown}
           </label>
         </div>
-        <WhatsMySize />
     </div>
   );
 };

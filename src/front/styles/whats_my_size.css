@@ -2,6 +2,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 0 7vw;
 }
 
 
@@ -68,7 +69,6 @@
     border: none;
     display: flex;
     align-items: center;
-    margin-right: 10vw;
 }
 
 .whats-my-size-button img {
