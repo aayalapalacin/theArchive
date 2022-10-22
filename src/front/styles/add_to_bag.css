@@ -13,6 +13,13 @@
     stroke: black;
     stroke-width: 1;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite-button > div {
+    margin-left: 10px;
 }
 
 .add-to-bag-button {
@@ -56,5 +63,9 @@
         color: gray;
         stroke: none;
         stroke-width: 0;
+    }
+
+    .favorite-button > div {
+        display: none;
     }
 }
