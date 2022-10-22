@@ -20,6 +20,8 @@
 .modal-footer {
     display:flex;
     justify-content: center;
+    border-top: none;
+    margin-top: 30px;
 }
 .gender-options {
     display: flex;
@@ -127,7 +129,7 @@
     color: white;
     background-color: gray;
     font-size: 18px;
-    width: 90%;
+    width: 70%;
 }
 
 .modal-body > div > p {
@@ -138,4 +140,13 @@
     background-color: white;
     border: none;
     font-size: 19px;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: gray;
+    cursor: pointer;
 }

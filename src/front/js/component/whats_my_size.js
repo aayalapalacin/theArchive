@@ -131,6 +131,7 @@ const WhatsMySize = () => {
 
                     
                     <div className="modal-footer">
+                        <div>By proceeding, you agree to LS&Co. <a href="">Terms of Use</a> & <a href="">Privacy Policy</a></div>
                         <button type="button" className="show-size-button">Show Me My Size</button>
                     </div>
                     </div>
