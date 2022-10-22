@@ -36,6 +36,16 @@
 }
 
 @media (max-width: 450px) {
+    .hide-in-mobile-view {
+        display: none;
+    }
+}
+
+@media (min-width: 450px) {
+    .hide-in-webview {
+        display: none;
+    }
+
     .favorite-button {
         width: 20%;
         display: inline-block;

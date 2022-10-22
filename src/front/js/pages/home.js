@@ -8,6 +8,7 @@ import { WaistAndLength } from "../component/waist_and_length";
 import Name_and_review from "../component/name_and_review";
 import AddToBag from "../component/add_to_bag";
 import WhatsMySize from "../component/whats_my_size";
+import { Footer } from "../component/footer";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -30,10 +31,11 @@ export const Home = () => {
       <div className="row waistAndLength">
         <WaistAndLength />
       </div>
-      <div className="row addToBag">
+      <div className="row addToBag hide-in-mobile-view">
         <AddToBag />
       </div>
       {/* footer in footer.js and layout.js */}
+        <Footer />
     </div>
   );
 };
