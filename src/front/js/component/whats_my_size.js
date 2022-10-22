@@ -13,8 +13,8 @@ const WhatsMySize = () => {
     const updateMyHeightFt = (e) => setMySize(e.target.value)
     const updateMyHeightIn = (e) => setMySize(e.target.value)
     const updateMyHeightCm = (e) => setMySize(e.target.value)
-    const updateMySystem = (e) => setSytem(e.target.value)
-
+    const updateMySystem = (systemNum) => setSytem(systemNum)
+    
     return(
         <div>
             <button type="button" className="whats-my-size-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -27,78 +27,111 @@ const WhatsMySize = () => {
                     <div className="modal-content">
                     <div className="modal-header">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHFSURBVHgB7ZZNSAJBFIDfbEGHNIuOQUH0Q5CQRJZkouAxAiuE9NSxwFtCEpGePHXpYFej9Fgnu0QpKEEa9GNgP56EroHuXpTYbd+EouDP7qa3Pth9M8vMfLzHzO4CyEQQBC9ecuYQvI33aqzA8Pti19RqwnshT+NEn6bZqg8Mz++8cdwNdplJVb8FGOFKigD5zOVoHBoebjxIAB1PmOsxlcpMJTzwhyCDzHOaxvklY8uxhJADKhFT04EMkok4jTaHU8JoYv6VyOQ8FAY2n6eZ6I2ts1EkKYiCYCBA2y6PR9Ic2RLkJHBcyUaKSJEEs9nacNC2y7PbUtQ12NPjBQXgVkaZyWqlGak1/fCYSkGpWKwZ91Uq+hRLkKfUPRXp5uaoaHl9jZYxk07XSMi4uk+AP4IH8+wyUjmgmOVdPAEX4RCcRiIDbZGUsTkdsO12w8joaPXjYFslZWYNC7Bit8OMXg9TWu1mXUn0Jd3w3YSlsExrQSofbIEo2sJy6Ui5qulYJljuVaej0u+GDnDk90NS3MJl/svVlDrlUkfLX7B2I/7VxLIca2HEhg86RDeBPYxMluNiPAiLaIU2gWsJ32B4Zdlb7P8A/Iy2jlV/XfwAAAAASUVORK5CYII="/>
-                        <button type="button" className="close" data-bs-dismiss="modal" aria-label="Close">
+                        <button type="button" className="close-button" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div className="modal-body">
-                        <div className="gender-options">
-                            <label>
-                                <input
-                                    type="radio"
-                                    name="gender"
-                                    value={myGender}
-                                />
-                                <div>Women</div>
-                            </label>
-                            <label>
-                                <input
-                                    type="radio"
-                                    name="gender"
-                                    value={myGender}
-                                />
-                                <div>Men</div>
-                            </label>
+                        <div className="modal-header-text">
+                            <div>Enter your details</div>
+                            <div>to get your size, quick & easy.</div> 
+                        </div>
+                        <div>
+                            <p>Gender</p>
+                            <div className="gender-options">
+                                <label>
+                                    <input
+                                        type="radio"
+                                        name="gender"
+                                        value={myGender}
+                                    />
+                                    <div>Women</div>
+                                </label>
+                                <label>
+                                    <input
+                                        type="radio"
+                                        name="gender"
+                                        value={myGender}
+                                    />
+                                    <div>Men</div>
+                                </label>
+                            </div>
                         </div>
                         <div className="measurements">
-                            {system === 0 ?
-                                <div>
-                                    <p>Height</p>
-                                    <input
-                                        type="text"
-                                        value={myHeightFt}
-                                    />
-                                    <input
-                                        type="text"
-                                        value={myHeightIn}
-                                    />
-                                    <div>
-                                        <label>
-                                            <input
-                                                type="radio"
-                                                checked={system == 0}
-                                            />
-                                        </label>
-                                        <label>
-                                            <input
-                                                type="radio"
-                                                checked={system == 1}
-                                            />
-                                        </label>
-                                        
-                                    </div>
-                                </div>
-                                :
-                                <div>
-                                    <p>Weight</p>
-                                    <input
-                                        type="text"
-                                        value={myHeightCm}
-                                    />
-                                </div>
-                            }
-                            <label>Weight
+                            <div>
+                                <p>Height</p>
                                 <input
-                                    type="text"
-                                    value={myWeight}
+                                    className={system == 0 ? 'half-width' : ''}
+                                    type="number"
+                                    value={system == 0 ? myHeightFt : myHeightCm}
+                                    min={system == 0 ? "3" : '30'}
+                                    max={system == 0 ? "9" : '500'}
+                                    placeholder={system == 0 ? 'feet' : ''}
                                 />
-                            </label>
+                                <input
+                                    className={system == 1 ? 'hide' : 'half-width'}
+                                    type="number"
+                                    value={myHeightIn}
+                                    min="0"
+                                    max="11"
+                                    placeholder='inches'
+                                />
+                                <div className="system-toggle-buttons">
+                                    <label>
+                                        <input
+                                            type="radio"
+                                            name="heightSystem"
+                                            checked={system == 0}
+                                            onChange={() => updateMySystem(0)}
+                                        />
+                                        <span className={system == 0 ? 'bold' : ''}>in</span>
+                                    </label>
+                                    <label>
+                                        <input
+                                            type="radio"
+                                            name="heightSystem"
+                                            checked={system == 1}
+                                            onChange={() => updateMySystem(1)}
+                                        />
+                                        <span className={system == 1 ? 'bold' : ''}>cm</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Weight</p>
+                                <input
+                                    type="number"
+                                    value={myWeight}
+                                    min='0'
+                                    max='1000'
+                                />
+                                <div className='system-toggle-buttons'>
+                                    <label>
+                                        <input
+                                            type="radio"
+                                            name="weightSystem"
+                                            checked={system == 0}
+                                            onChange={() => updateMySystem(0)}
+                                        />
+                                        <span className={system == 0 ? 'bold' : ''}>lb</span>
+                                    </label>
+                                    <label>
+                                        <input                                          
+                                            type="radio"
+                                            name="weightSystem"
+                                            checked={system == 1}
+                                            onChange={() => updateMySystem(1)}
+                                        />
+                                        <span className={system == 1 ? 'bold' : ''}>kg</span>
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-primary">Show Me My Size</button>
+                        <button type="button" className="show-size-button">Show Me My Size</button>
                     </div>
                     </div>
                 </div>
