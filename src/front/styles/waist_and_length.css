@@ -56,6 +56,10 @@ outline: 1px solid black;
 
 
 @media (max-width: 450px) {
+    .waist-length-container {
+        margin-left: 5vw;
+    }
+
     .size-radio {
         overflow: scroll; 
         height: 8vh;

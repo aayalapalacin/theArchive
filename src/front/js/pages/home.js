@@ -35,7 +35,7 @@ export const Home = () => {
         <AddToBag />
       </div>
       {/* footer in footer.js and layout.js */}
-        <Footer />
+        {/* <Footer /> */}
     </div>
   );
 };
