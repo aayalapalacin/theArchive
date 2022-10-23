@@ -14,7 +14,7 @@ const ShippingAndQuantity = ({}) => {
     return (
         <div className='shipping-quantity-container'>
             <div className='quantity-container'>
-                <div>Quantity</div>
+                <div className='hide-in-web-view'><strong>Select Quantity</strong></div>
                 <div className='quantity-counter'>
                     <button onClick={decrementQuantity}>-</button>
                     <div>{quantity}</div>
