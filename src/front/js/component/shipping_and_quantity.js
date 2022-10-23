@@ -16,9 +16,9 @@ const ShippingAndQuantity = ({}) => {
             <div className='quantity-container'>
                 <div>Quantity</div>
                 <div className='quantity-counter'>
-                    <button onClick={incrementQuantity}>+</button>
-                    <div>{quantity}</div>
                     <button onClick={decrementQuantity}>-</button>
+                    <div>{quantity}</div>
+                    <button onClick={incrementQuantity}>+</button>
                 </div>
             </div>
         
