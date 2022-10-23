@@ -1,30 +1,51 @@
 import React, { useState } from 'react'
+import "../../styles/shipping_and_quantity.css";
 
 ///// TODO ADD CONDITIONAL HIDE TO MESSAGE TO PICK SIZE IN BUTTONS
 
 const ShippingAndQuantity = ({}) => {
     const [shippingMethod, setShippingMethod] = useState() //0 for store pickup, 1 for delivery
+    const [quantity, setQuantity] = useState(1);
+
+    const updateShippingMethod = (e) => setShippingMethod(e.target.value)
+    const incrementQuantity = () => setQuantity(quantity + 1)
+    const decrementQuantity = () => setQuantity(quantity - 1)
 
     return (
-        <div>
-            <label>
-                <input
-                    type='radio'
-                    name='shippingMethod'
-                    checked={shippingMethod == 0}
-                />
-                <div>Pickup In-Store</div> 
-                <div className="">Select item to see if item is in stock</div> 
-            </label>
-            <label>
-                <input
-                    type='radio'
-                    name='shippingMethod'
-                    checked={shippingMethod == 0}
-                />
-                <div>Ship</div>
-                <div className="">Select item to see if item is in stock</div> 
-            </label>
+        <div className='shipping-quantity-container'>
+            <div className='quantity-container'>
+                <div>Quantity</div>
+                <div className='quantity-counter'>
+                    <button onClick={incrementQuantity}>+</button>
+                    <div>{quantity}</div>
+                    <button onClick={decrementQuantity}>-</button>
+                </div>
+            </div>
+        
+            <div className='shipping-radio' onChange={() => updateShippingMethod()}>
+                <label>
+                    <input
+                        type='radio'
+                        name='shippingMethod'
+                        value='0'
+                    />
+                    <div>
+                        <h5>Pickup In-Store</h5> 
+                        <div className="">Select item to see if item is in stock</div> 
+                    </div>
+                </label>
+                <label>
+                    <input
+                        type='radio'
+                        name='shippingMethod'
+                        value = '1'
+                    />
+                    <div>
+                        <h5>Ship</h5>
+                        <div>Select item to see if item is in stock</div> 
+                    </div>
+                </label>
+            </div>
         </div>
     )
 }
