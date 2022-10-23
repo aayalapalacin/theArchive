@@ -56,6 +56,21 @@
     }
 } 
 
+.quantity-counter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quantity-counter button {
+    margin: 0 10vw;
+}
+
+.quantity-counter button {
+    background-color: inherit;
+    font-weight: bold;
+    border: none;
+}
+
 @media (max-width: 450px) {
 
     .shipping-radio label{
