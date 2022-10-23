@@ -9,7 +9,7 @@ const ShippingAndQuantity = ({}) => {
 
     const updateShippingMethod = (e) => setShippingMethod(e.target.value)
     const incrementQuantity = () => setQuantity(quantity + 1)
-    const decrementQuantity = () => setQuantity(quantity - 1)
+    const decrementQuantity = () => { if(quantity > 1) setQuantity(quantity - 1)}
 
     return (
         <div className='shipping-quantity-container'>
