@@ -1,5 +1,6 @@
 .product-price-container {
     display: flex;
+    margin-left: 15px;
 }
 
 .product-price {
