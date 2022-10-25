@@ -25,7 +25,7 @@ export const WaistAndLength = ({product, model = {height: `5'9"`, waist: '27'}})
   return (
     <div className="waist-length-container">
       <label for="waist-size">Waist</label>
-      <div onChange={(e) => updateWaistSize(e)} className="size-radio">
+      <div onChange={(e) => updateWaistSize(e)} className="size-radio hide-in-mobile-view">
         {test()}
 
         {waistSizeOptions.map((sizeOption) => {
