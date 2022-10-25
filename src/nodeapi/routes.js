@@ -25,8 +25,6 @@ router.get("/getallpc9matchprofile", function(req, res) {
   res.json(getallpc9);
 });
 
-
-
 router.get("/getprofile", function(req, res) {
   res.json(getprofile);
 });

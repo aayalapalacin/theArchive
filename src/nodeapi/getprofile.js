@@ -5,4 +5,5 @@ module.exports = [
     waist: 30,
     length: 32,
   }
+  ];
 
