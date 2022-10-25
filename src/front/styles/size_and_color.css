@@ -38,6 +38,7 @@
 .color-radio input {
     position: absolute;
     opacity: 0;
+    left:0
 }
 
 .color-radio input + img {
@@ -69,6 +70,7 @@ outline: 2px solid cornflowerblue;
 @media (max-width: 450px) {
     .color-radio-container {
         margin-left: 4%;
+        max-width: 100vw;
     }
     .color-radio {
         overflow: scroll;

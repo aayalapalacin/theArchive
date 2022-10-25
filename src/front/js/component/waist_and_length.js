@@ -10,14 +10,11 @@ export const WaistAndLength = ({
   const [length, setLength] = useState();
 
   // Selection Choices
-  const waistSizeOptions = [23, 24, 25, 26];
-  // 27, 28, 29, 30, 31, 32, 33
+  const waistSizeOptions = [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
   const lengthOptions = [26, 28, 30];
   //
 
-  const test = () => {
-    console.log("im here", model);
-  };
+
 
   const updateWaistSize = (e) => setWaistSize(e.target.value);
   const updateLength = (e) => setLength(e.target.value);
@@ -26,7 +23,6 @@ export const WaistAndLength = ({
     <div className="waist-length-container">
       <label for="waist-size">Waist</label>
       <div onChange={(e) => updateWaistSize(e)} className="size-radio">
-        {test()}
 
         {waistSizeOptions.map((sizeOption) => {
           return (
@@ -68,7 +64,7 @@ export const WaistAndLength = ({
           {product ? product.fit : "________"}
         </p>
         <p>
-          Model is {test()} {model.height} wearing a size {model.waist} waist
+          Model is {model.height} wearing a size {model.waist} waist
         </p>
       </div>
     </div>

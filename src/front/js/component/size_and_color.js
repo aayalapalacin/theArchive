@@ -71,42 +71,42 @@ const SizeAndColor = () => {
       name: "Black - Non Stretch",
       image: "https://lsco.scene7.com/is/image/lsco/005050260-swatch?$swatch$",
     },
-    // {
-    //   name: "Flying Bird - Dark Wash - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005051455-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Medium Stonewash - Non Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005054891-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Goldenrod - Dark Wash - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005051994-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Rinse - Dark Wash - Non Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005050216-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Fremont Drop Shot - Medium Wash - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005052217-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Shooting Star - Light Wash - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005051992-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Kansas - Grey - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005051594-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Clif Dark Wash - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005051456-swatch?$swatch$",
-    // },
-    // {
-    //   name: "Durian Dark Wash - Stretch",
-    //   image: "https://lsco.scene7.com/is/image/lsco/005051989-swatch?$swatch$",
-    // },
+    {
+      name: "Flying Bird - Dark Wash - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005051455-swatch?$swatch$",
+    },
+    {
+      name: "Medium Stonewash - Non Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005054891-swatch?$swatch$",
+    },
+    {
+      name: "Goldenrod - Dark Wash - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005051994-swatch?$swatch$",
+    },
+    {
+      name: "Rinse - Dark Wash - Non Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005050216-swatch?$swatch$",
+    },
+    {
+      name: "Fremont Drop Shot - Medium Wash - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005052217-swatch?$swatch$",
+    },
+    {
+      name: "Shooting Star - Light Wash - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005051992-swatch?$swatch$",
+    },
+    {
+      name: "Kansas - Grey - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005051594-swatch?$swatch$",
+    },
+    {
+      name: "Clif Dark Wash - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005051456-swatch?$swatch$",
+    },
+    {
+      name: "Durian Dark Wash - Stretch",
+      image: "https://lsco.scene7.com/is/image/lsco/005051989-swatch?$swatch$",
+    },
   ];
   //
 
