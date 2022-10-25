@@ -46,7 +46,7 @@ export const Home = () => {
         <ShippingAndQuantity />
       </div>
       {/* footer in footer.js and layout.js */}
-        {/* <Footer /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
