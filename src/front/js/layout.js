@@ -10,6 +10,7 @@ import injectContext from "./store/appContext";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import Pc9Input from "./pages/pc9Input";
+import LeviBackend from "./component/leviBackend";
 
 //create your first component
 const Layout = () => {
@@ -24,6 +25,7 @@ const Layout = () => {
           <Navbar />
           <Routes>
             <Route element=<Pc9Input /> path="/" />
+            <Route element=<LeviBackend /> path="/leviBackend" />
             <Route element={<h1>Not found!</h1>} />
           </Routes>
           <Footer />
