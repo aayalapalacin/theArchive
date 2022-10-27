@@ -28,7 +28,7 @@ function Pc9Input() {
             <div className="col-1">
               <FontAwesomeIcon
                 icon={faChevronLeft}
-                className="chevron-left my-2"
+                className="chevron-left mt-2"
               ></FontAwesomeIcon>
             </div>
             <div className="col-11">
