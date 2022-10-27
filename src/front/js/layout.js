@@ -9,7 +9,12 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+
 import ArchiveRecommendation from "./component/archive_recommendation/archive_recommendation";
+
+import Pc9Input from "./pages/pc9Input";
+import LeviBackend from "./component/leviBackend";
+
 //create your first component
 const Layout = () => {
   //the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -22,8 +27,12 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
+
             <Route element={<Home />} path="/" />
             <Route element={<ArchiveRecommendation />} path="/archive" /> 
+            <Route element=<Pc9Input /> path="/" />
+            <Route element=<LeviBackend /> path="/leviBackend" />
+
             <Route element={<h1>Not found!</h1>} />
           </Routes>
           <Footer />
