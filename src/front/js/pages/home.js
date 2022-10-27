@@ -11,6 +11,7 @@ import WhatsMySize from "../component/whats_my_size";
 import { Footer } from "../component/footer";
 import ProductPrice from "../component/product_price";
 import ShippingAndQuantity from "../component/shipping_and_quantity";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -45,6 +46,8 @@ export const Home = () => {
       <div className="row shippingAndQuantity">
         <ShippingAndQuantity />
       </div>
+      <Link to='/archive'> ***Archive Page Link DELETE LATE **** </Link>
+      
       {/* footer in footer.js and layout.js */}
       {/* <Footer /> */}
     </div>
