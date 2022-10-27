@@ -273,6 +273,7 @@ const leviDatabase = [
     Color_Group_Taxonomy_US: "Medium Wash",
   },
 ];
+
 console.log(leviDatabase, "leviDatabase");
 
 let oneHundredPercentMatch = [];
@@ -329,6 +330,7 @@ for (let i = 0; i < leviDatabase.length; i++) {
     }
   }
 }
+
 console.log("25", twentyFivePercentMatch);
 console.log("50", fiftyPercentMatch);
 console.log("75", seventyFivePercentMatch);
