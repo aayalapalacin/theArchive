@@ -14,6 +14,8 @@ import ArchiveRecommendation from "./component/archive_recommendation/archive_re
 
 import Pc9Input from "./pages/pc9Input";
 import LeviBackend from "./component/leviBackend";
+import { WaistAndLength } from "./component/waist_and_length";
+import WaistLengthInput from "./pages/waistLengthInput";
 
 //create your first component
 const Layout = () => {
@@ -29,7 +31,8 @@ const Layout = () => {
           <Routes>
             <Route element={<Home />} path="/browsingPage" />
             <Route element={<ArchiveRecommendation />} path="/archive" />
-            <Route element=<Pc9Input /> path="/" />
+            <Route element=<WaistLengthInput /> path="/" />
+            <Route element=<Pc9Input /> path="/pc9" />
             <Route element=<LeviBackend /> path="/leviBackend" />
 
             <Route element={<h1>Not found!</h1>} />

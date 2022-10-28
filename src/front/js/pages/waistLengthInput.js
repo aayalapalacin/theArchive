@@ -5,27 +5,26 @@ import { Formik, Form } from "formik";
 import { Link } from "react-router-dom";
 import TextField from "../component/textField";
 import * as Yup from "yup";
-import pc9Img from "../../img/pc9_2.png";
+import wLImg from "../../img/PC9-W26_L28.png";
 import "../../styles/pc9Input.css";
 
 const validate = Yup.object({
-  pc9Input: Yup.string()
-    .required("This field is required")
-    .max(9, "must be 9 characters long")
-    .min(9, "must be 9 characters long"),
+  waistInput: Yup.string().required("This field is required"),
+  lengthInput: Yup.string().required("This field is required"),
 });
 
-function Pc9Input() {
+function WaistLengthInput() {
   return (
     <Formik
       initialValues={{
-        pc9Input: "",
+        waistInput: "",
+        lengthInput: "",
       }}
       validationSchema={validate}
     >
       {(formik) => (
         <div>
-          {console.log(formik.values)}
+          {console.log("test", formik.values)}
           <div className="row archiveBackBtn">
             <div className="col-1">
               <FontAwesomeIcon
@@ -37,35 +36,46 @@ function Pc9Input() {
               <p className="archiveBackTitle my-2">the Archive</p>
             </div>
           </div>
-          <div className="row myLeviJeanTitle mx-auto mt-4">
+          <div className="row myLeviJeanTitle mx-1 mt-4">
             <span className="MY-LEVIS-JEANS">MY LEVI’S JEANS</span>
           </div>
           <div className="row 2of2">
-            <span className="-of-2 mx-auto mt-2">2 of 2</span>
+            <span className="-of-2 mx-auto mt-2">1 of 2</span>
           </div>
           <div className="row pc9Instructions">
-            <span className="Input-the-pc9-code-serial-number-found-on-the-back-of-the-care-tag mx-auto">
-              Input the pc9 code (serial number) found on the back of the care
-              tag.
+            <span className="Input-the-pc9-code-serial-number-found-on-the-back-of-the-care-tag mx-auto fs-6 px-0">
+              Input the width & length measurements found on the front of your
+              Levi Jean’s care tag.
             </span>
           </div>
           <div className="row pc9Img">
-            <img className="mb-5" src={pc9Img} alt="pc9 tag" />
+            <img className="mb-5" src={wLImg} alt="waistLength tag" />
           </div>
-          <div className="row pc9Input">
+          <div className="row WaistInput">
             <div>
               <TextField
-                className="pc9InputField ms-2"
-                label="PC9"
-                id="pc9Input"
-                name="pc9Input"
+                className="waistLengthInputField ms-2"
+                label="Waist"
+                id="waistInput"
+                name="waistInput"
+                type="text"
+              />
+            </div>
+          </div>
+          <div className="row LengthInput">
+            <div>
+              <TextField
+                className="waistLengthInputField ms-2"
+                label="length"
+                id="lengthInput"
+                name="lengthInput"
                 type="text"
               />
             </div>
           </div>
           <div className="row submit">
             <button className=" mx-auto mt-5 submitBtn" type="submit">
-              <Link to="/archive">Submit</Link>
+              <Link to="/pc9">Submit</Link>
             </button>
           </div>
         </div>
@@ -74,4 +84,4 @@ function Pc9Input() {
   );
 }
 
-export default Pc9Input;
+export default WaistLengthInput;
