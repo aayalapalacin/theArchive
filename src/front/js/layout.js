@@ -27,9 +27,8 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
-
-            <Route element={<Home />} path="/" />
-            <Route element={<ArchiveRecommendation />} path="/archive" /> 
+            <Route element={<Home />} path="/browsingPage" />
+            <Route element={<ArchiveRecommendation />} path="/archive" />
             <Route element=<Pc9Input /> path="/" />
             <Route element=<LeviBackend /> path="/leviBackend" />
 
