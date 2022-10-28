@@ -1,12 +1,22 @@
 .recommendation-list-item-container {
-    /* width: 45vw; */
-    height: 250px;
-    background-color: gray;
-    border: black solid;
+  /* width: 45vw; */
+  height: fit-content;
 }
 
 .recommendation-list-item-image {
-    width: 100%;
-    height: 75%;
-    background-color: white;
+  background-color: white;
+}
+
+.recommendation-list-item-image img {
+  width: 100%;
+  height: auto;
+}
+
+.recommendation-list-item-details {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+.recommendation-list-item-details > div {
+  margin: 15px;
 }

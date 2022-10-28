@@ -1,13 +1,13 @@
-import React from 'react'
-import "../../../styles/archive_recommendation/archive_match_score.css"
+import React from "react";
+import "../../../styles/archive_recommendation/archive_match_score.css";
 
 const ArchiveMatchScore = (score) => {
-    return(
-        <div>
-            <div className='circle-chart'></div>
-            <div className='chart-fill'></div>
-        </div>
-    )
-}
+  return (
+    <div className="archive-score">
+      <div className="circle-chart"></div>
+      <div className="chart-fill"></div>
+    </div>
+  );
+};
 
-export default ArchiveMatchScore
+export default ArchiveMatchScore;

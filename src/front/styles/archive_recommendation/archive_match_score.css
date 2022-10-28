@@ -1,16 +1,21 @@
+.archive-score {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 10px;
+}
 .circle-chart {
-    width: 45px;
-    height: 45px;
-    padding: 2px 12px 13px 14px;
-    transform: rotate(-270deg);
-    border: solid 0.5px #a99;
-    background-color: #fff;
-  }
-  
-  .fill-chart {
-    width: 45px;
-    height: 45px;
-    padding: 2px 12px 13px 14px;
-    transform: rotate(-180deg);
-    background-color: #a8122f;
-  }
+  width: 45px;
+  height: 45px;
+  padding: 2px 12px 13px 14px;
+  transform: rotate(-270deg);
+  border: solid 0.5px #a99;
+  background-color: #fff;
+}
+
+.fill-chart {
+  width: 45px;
+  height: 45px;
+  padding: 2px 12px 13px 14px;
+  transform: rotate(-180deg);
+  background-color: #a8122f;
+}
