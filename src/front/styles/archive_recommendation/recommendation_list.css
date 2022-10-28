@@ -1,8 +1,16 @@
 .recommendation-list-header {
   text-align: center;
 }
+
+.fourteenPx {
+  font-size: 14px;
+}
+
+.tenPx {
+  font-size: 10px;
+}
 .recommendation-list {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50% 50%;
+  grid-template-columns: auto auto;
+  grid-gap: 19px;
 }
