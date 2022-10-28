@@ -2,20 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-	return (
-		<nav className="navbar navbar-light bg-light">
+  return (
+    <nav className="navbar navbar-expand-md navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div className="container">
-        <Link to="/">
-          <span className="navbar-brand mb-0 h1">SHOP</span>
-        </Link>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">SHOP</li>
+          </ul>
 
-        <Link to="/">
-          <span className="navbar-brand mb-0 h1">DISCOVER</span>
-        </Link>
+          <ul class="navbar-nav">
+            <li class="nav-item">DISCOVER</li>
+          </ul>
 
-        <Link to="/">
-          <span className="navbar-brand mb-0 h1">SECONDHAND</span>
-        </Link>
+          <ul class="navbar-nav">
+            <li class="nav-item">SECONDHAND</li>
+          </ul>
+        </div>
 
         <div>
           <img src="https://i.imgur.com/rxlJC7G.png" height="20px" />
@@ -26,17 +39,7 @@ export const Navbar = () => {
         </div>
 
         <div>
-          <form>
-            <input type="text" value="What are you looking for?"></input>
-          </form>
-        </div>
-
-        <div>
           <img src="https://i.imgur.com/lQw4fSR.png" height="20px" />
-        </div>
-
-        <div>
-          <img src="https://i.imgur.com/2UfDpDh.png" height="20px" />
         </div>
 
         <div>
