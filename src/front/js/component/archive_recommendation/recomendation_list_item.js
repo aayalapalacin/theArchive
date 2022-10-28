@@ -2,11 +2,11 @@ import React from "react";
 import "../../../styles/archive_recommendation/recommendation_list_item.css";
 import ArchiveMatchScore from "./archive_match_score";
 
-const RecommendationListItem = ({ product = {}, score }) => {
+const RecommendationListItem = ({ product = {}, archiveRating }) => {
   return (
     <div className="recommendation-list-item-container">
       <div className="recommendation-list-item-image">
-        <ArchiveMatchScore score={score} />
+        <ArchiveMatchScore archiveRating={archiveRating} />
         <img
           src={
             product?.image ||

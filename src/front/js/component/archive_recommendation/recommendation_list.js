@@ -8,10 +8,6 @@ const RecommendationList = ({ pc9 }) => {
     ArchiveMatch(pc9)
   );
 
-  useEffect(() => {
-    console.log("recommendationList");
-    console.log(recomendationList);
-  }, [recomendationList]);
   return (
     <div className="recommendation-list-container">
       <div className="recommendation-list-header">
