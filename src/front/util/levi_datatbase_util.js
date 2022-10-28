@@ -1,5 +1,6 @@
 const leviDatabase = [
   {
+
     Identifier: "523490025",
     Product_Name_Taxonomy_US: "Wedgie Fit Skinny Women's Jeans (Plus Size)",
     Size_Group_Taxonomy_US: "Womens_Plus_Size",
@@ -61,6 +62,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Slim",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
+    Price: "$108.00",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/A15600003-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "527970310",
@@ -88,6 +93,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny,Super Skinny,Mile High",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.8, 24: 23.7, 25: 24.9 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/527970310-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362000180",
@@ -115,6 +124,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: null,
     Color_Group_Taxonomy_US: "Black",
+    Price: "$108.00",
+    Waist: { 23: 23, 24: 24, 25: 25 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "227910147",
@@ -178,7 +191,12 @@ const leviDatabase = [
     Fit_Taxonomy_US: null,
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
+    Price: "$98.00",
+    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
+
   {
     Identifier: "A36250002",
     Product_Name_Taxonomy_US: "726 High Rise Flare Women's Jeans (Plus Size)",
@@ -187,6 +205,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: null,
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "726930111",
@@ -214,6 +236,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: null,
     Color_Group_Taxonomy_US: "Dark Wash",
+    Price: "$108.00",
+    Waist: { 23: 23, 24: 24, 25: 25 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362000236",
@@ -223,6 +249,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: null,
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$108.00",
+    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362000236-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "A19670001",
@@ -259,6 +289,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Boyfriend,Straight",
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$108.00",
+    Waist: { 23: 22.8, 24: 23.9, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/A19670001-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "527970340",
@@ -268,6 +302,10 @@ const leviDatabase = [
     Fit_Taxonomy_US: null,
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$98.00",
+    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/527970340-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
 ];
 
@@ -331,15 +369,17 @@ export const ArchiveMatch = (input = "362530001") => {
         break;
       }
     }
-  }
-  return [
-    oneHundredPercentMatch,
-    eightyFivePercentMatch,
-    seventyFivePercentMatch,
-    fiftyPercentMatch,
-    twentyFivePercentMatch,
-  ];
+    }
+    return [
+      oneHundredPercentMatch,
+      eightyFivePercentMatch,
+      seventyFivePercentMatch,
+      fiftyPercentMatch,
+      twentyFivePercentMatch,
+    ];  
 };
+console.log(leviDatabase.length, "length");
+
 
 export const MatchPc9 = (pc9 = "362530001") => {
   return leviDatabase.filter((item) => item.Identifier == pc9);
