@@ -19,6 +19,15 @@ export const Home = () => {
   return (
     <div className="container px-0 ">
       {/* navbar in navbar.js and layout.js */}
+
+      <div>
+        <hr class="solid" />
+        <img src="https://i.imgur.com/Byxw9LD.png" height="20px"></img>
+        <text>Visit the Archive for a perfect fit.</text>
+        <img src="https://i.imgur.com/hVTiMmi.png" height="20px"></img>
+        <hr class="solid" />
+      </div>
+
       <div className="row reviews px-3">
         <Name_and_review />
       </div>
@@ -46,8 +55,8 @@ export const Home = () => {
       <div className="row shippingAndQuantity">
         <ShippingAndQuantity />
       </div>
-      <Link to='/archive'> ***Archive Page Link DELETE LATE **** </Link>
-      
+      <Link to="/archive"> ***Archive Page Link DELETE LATE **** </Link>
+
       {/* footer in footer.js and layout.js */}
       {/* <Footer /> */}
     </div>
