@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/custom.css";
 
 export const Navbar = () => {
   return (
@@ -15,6 +16,7 @@ export const Navbar = () => {
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div className="container">
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
