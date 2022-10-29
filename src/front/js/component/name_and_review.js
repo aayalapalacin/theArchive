@@ -4,7 +4,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faStarHalf } from "@fortawesome/free-solid-svg-icons";
 import "../../styles/name_and_review.css";
-function Name_and_review() {
+function Name_and_review({ jean }) {
   return (
     <div>
       <div className="row backBtn mb-3">
@@ -17,7 +17,9 @@ function Name_and_review() {
         </div>
       </div>
       <div className="row name">
-        <h1 class="product-title px-4">311 Shaping Skinny Women's Jeans</h1>
+        <h1 class="product-title px-4">
+          {jean?.Product_Name_Taxonomy_US || "311 Shaping Skinny Women's Jeans"}
+        </h1>
       </div>
       <div className="row review float-start mt-1 mb-4 pb-3 fa-stack ms-0 ">
         <div className="col-5"></div>

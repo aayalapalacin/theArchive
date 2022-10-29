@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../../styles/click_photo.css";
 
-function Click_photo() {
+function Click_photo({ jean }) {
   return (
     <div className="container">
       <div
@@ -34,21 +34,30 @@ function Click_photo() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://lsco.scene7.com/is/image/lsco/A09640003-front-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+              src={
+                jean?.ImgFront ||
+                "https://lsco.scene7.com/is/image/lsco/A09640003-front-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+              }
               class="d-block w-100"
               alt="photo1"
             />{" "}
           </div>
           <div class="carousel-item">
             <img
-              src="https://lsco.scene7.com/is/image/lsco/A09640003-side-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+              src={
+                jean?.ImgFront ||
+                "https://lsco.scene7.com/is/image/lsco/A09640003-side-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+              }
               class="d-block w-100"
               alt="photo2"
             />{" "}
           </div>
           <div class="carousel-item">
             <img
-              src="https://lsco.scene7.com/is/image/lsco/A09640003-back-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+              src={
+                jean?.ImgFront ||
+                "https://lsco.scene7.com/is/image/lsco/A09640003-back-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+              }
               class="d-block w-100"
               alt="photo3"
             />{" "}
