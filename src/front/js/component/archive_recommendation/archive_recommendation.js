@@ -7,15 +7,10 @@ import { Context } from "../../store/appContext";
 import RecommendationList from "./recommendation_list";
 import RetiredFavorite from "./retired_favorite";
 
-const ArchiveRecommendation = ({ pc9 }) => {
-  const [matchingJean, setMatchingJean] = useState(MatchPc9(pc9));
-
+const ArchiveRecommendation = ({}) => {
   const { store, actions } = useContext(Context);
-  console.log("store", store);
-  // useEffect( () => {
-  //     console.log('archiveRecommendations')
-  //     console.log(archiveRecommendations)
-  // }, [archiveRecommendations])
+  const pc9 = store.pc9[0]?.pc9Input;
+  const [matchingJean, setMatchingJean] = useState(MatchPc9(pc9));
 
   return (
     <div>
