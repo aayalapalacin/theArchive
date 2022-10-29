@@ -1,12 +1,20 @@
 const leviDatabase = [
   {
-    Identifier: "523490025",
-    Product_Name_Taxonomy_US: "Wedgie Fit Skinny Women's Jeans (Plus Size)",
+    Identifier: "362550058",
+    Product_Name_Taxonomy_US: "711 Skinny Women's Jeans (Plus Size)",
     Size_Group_Taxonomy_US: "Womens_Plus_Size",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Wedgie,Skinny,Taper",
+    Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Black",
+    Color_Group_Taxonomy_US: "Dark Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "349640047",
@@ -16,6 +24,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Wedgie",
     Stretch_Taxonomy_US: null,
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188820452",
@@ -25,6 +41,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: null,
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "A15600003",
@@ -34,6 +58,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Bootcut,Low Pitch",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188850025",
@@ -43,6 +75,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Bootcut",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "177800065",
@@ -52,19 +92,31 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny,Super Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
-    Identifier: "362530000",
-    Product_Name_Taxonomy_US: "Orange Tab Slim Leg Women's Jeans",
+    Identifier: "A08980016",
+    Product_Name_Taxonomy_US: "70's High Rise Slim Straight Women's Jeans",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Slim",
+    Fit_Taxonomy_US: "70's High Rise,Slim,Straight",
     Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Dark Wash",
+    Color_Group_Taxonomy_US: "Medium Wash",
     Price: 108.0,
     Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
     ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/A15600003-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/A08980016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/A08980016-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/A08980016-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "527970310",
@@ -74,6 +126,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Super Skinny,Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "527970067",
@@ -83,9 +143,17 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Super Skinny,Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
-    Identifier: "227910108",
+    Identifier: "227910184",
     Product_Name_Taxonomy_US: "Mile High Super Skinny Women's Jeans",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
@@ -95,7 +163,11 @@ const leviDatabase = [
     Price: 69.5,
     Waist: { 23: 22.8, 24: 23.7, 25: 24.9 },
     ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/527970310-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362000180",
@@ -105,6 +177,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Boyfriend,Straight",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "564770027",
@@ -114,6 +194,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Black",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188820357",
@@ -127,6 +215,10 @@ const leviDatabase = [
     Waist: { 23: 23, 24: 24, 25: 25 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "227910147",
@@ -136,6 +228,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny,Super Skinny,Mile High",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Black",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188820166",
@@ -145,6 +245,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "196310153",
@@ -154,6 +262,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "227910039",
@@ -163,6 +279,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny,Super Skinny,Mile High",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188850077",
@@ -172,6 +296,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Bootcut",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "228610030",
@@ -181,6 +313,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Wedgie,Taper",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "White",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362000241",
@@ -193,6 +333,10 @@ const leviDatabase = [
     Price: 98.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
 
@@ -208,6 +352,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "726930111",
@@ -217,6 +365,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Ribcage,Straight",
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188820262",
@@ -226,6 +382,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "188810005",
@@ -238,6 +402,10 @@ const leviDatabase = [
     Price: 108.0,
     Waist: { 23: 23, 24: 24, 25: 25 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
@@ -252,6 +420,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000236-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362000236-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362000236-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "A19670001",
@@ -261,6 +433,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Bootcut,Ribcage",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "579590001",
@@ -270,6 +450,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Skinny,Super Skinny,Mile High",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362530001",
@@ -279,6 +467,14 @@ const leviDatabase = [
     Fit_Taxonomy_US: "Slim",
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
+    Price: "$69.50",
+    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "125010307",
@@ -291,6 +487,10 @@ const leviDatabase = [
     Price: 108.0,
     Waist: { 23: 22.8, 24: 23.9, 25: 24.7 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/A19670001-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/A19670001-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/A19670001-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
@@ -305,6 +505,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/527970340-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/527970340-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/527970340-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "269860016",
@@ -317,6 +521,10 @@ const leviDatabase = [
     Price: 69.5,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/269860016-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/269860016-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/269860016-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
@@ -331,6 +539,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/373430006-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/373430006-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/373430006-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "A49690000",
@@ -343,6 +555,10 @@ const leviDatabase = [
     Price: 346.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/A49690000-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/A49690000-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/A49690000-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
@@ -357,6 +573,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/levis/clothing/188810012-front-pdp.jpg?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/levis/clothing/188810012-front-pdp.jpg?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/levis/clothing/188810012-front-pdp.jpg?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "373500152",
@@ -370,6 +590,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/373500152-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/373500152-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/373500152-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362000124",
@@ -382,6 +606,10 @@ const leviDatabase = [
     Price: 108.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/362000124-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/362000124-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/362000124-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
@@ -397,6 +625,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/388430016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/388430016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/388430016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "228610107",
@@ -409,6 +641,10 @@ const leviDatabase = [
     Price: 108.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/228610107-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/228610107-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/228610107-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
@@ -423,6 +659,10 @@ const leviDatabase = [
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/177780484-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/177780484-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
+      "https://lsco.scene7.com/is/image/lsco/177780484-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "196260288",
@@ -435,6 +675,10 @@ const leviDatabase = [
     Price: 46.98,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
     ImgFront:
+      "https://lsco.scene7.com/is/image/lsco/196260288-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgSide:
+      "https://lsco.scene7.com/is/image/lsco/196260288-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    ImgBack:
       "https://lsco.scene7.com/is/image/lsco/196260288-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
 ];
