@@ -14,8 +14,6 @@ import ShippingAndQuantity from "../component/shipping_and_quantity";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
-  const { store, actions } = useContext(Context);
-
   return (
     <div className="container px-0 ">
       {/* navbar in navbar.js and layout.js */}

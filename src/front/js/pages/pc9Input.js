@@ -17,7 +17,6 @@ const validate = Yup.object({
 });
 
 function Pc9Input(props) {
-  console.log(props.actions, "props pc9");
   return (
     <Formik
       initialValues={{

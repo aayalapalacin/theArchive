@@ -1,6 +1,3 @@
-import React, { useContext } from "react";
-import { Context } from "../js/store/appContext";
-
 const leviDatabase = [
   {
     Identifier: "523490025",
@@ -443,16 +440,12 @@ const leviDatabase = [
 ];
 
 export const ArchiveMatch = (input = "362530001") => {
-  const { store, actions } = useContext(Context);
-
   let oneHundredPercentMatch = [];
   let eightyFivePercentMatch = [];
   let seventyFivePercentMatch = [];
   let fiftyPercentMatch = [];
   let twentyFivePercentMatch = [];
 
-  let pc9Code = store.pc9[0]?.pc9Input;
-  console.log("pc9Code: " + pc9Code);
   let inputProduct = leviDatabase.filter((item) => item.Identifier == input);
 
   for (let i = 0; i < leviDatabase.length; i++) {
