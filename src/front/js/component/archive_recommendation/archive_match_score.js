@@ -1,11 +1,20 @@
 import React from "react";
 import "../../../styles/archive_recommendation/archive_match_score.css";
+import { CircleProgress } from "react-gradient-progress";
 
-const ArchiveMatchScore = (score) => {
+const ArchiveMatchScore = ({ archiveRating }) => {
   return (
     <div className="archive-score">
-      <div className="circle-chart"></div>
-      <div className="chart-fill"></div>
+      <CircleProgress
+        percentage={archiveRating}
+        strokeWidth={8}
+        width={70}
+        fontSize={11.6}
+        fontColor={"black"}
+        strokeLinecap={"square"}
+        primaryColor={["red", "red"]}
+        secondaryColor={"white"}
+      />
     </div>
   );
 };

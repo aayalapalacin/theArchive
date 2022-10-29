@@ -1,17 +1,28 @@
-import React from 'react'
-import "../../../styles/archive_recommendation/page_navigation.css"
+import React from "react";
+import "../../../styles/archive_recommendation/page_navigation.css";
 
-const PageNavigation = () => {
-    return(
-        <ul>
-            <li><a href=''>1</a></li>
-            <li><a href=''>2</a></li>
-            <li><a href=''>3</a></li>
-            <li><a href=''>4</a></li>
-            <li><a href=''>5</a></li>
-            <li><a href=''>6</a></li>
-        </ul>
-    )
-}
+const PageNavigation = ({ numPages, curPage, setCurPage }) => {
+  const makePageArray = () => {
+    let pageArray = [];
+    for (let i = 0; i < numPages; i++) {
+      pageArray.push(i + 1);
+    }
+    return pageArray;
+  };
+
+  const updatePageNumber = (e) => {
+    setCurPage(e.target.value);
+  };
+
+  return (
+    <ul>
+      {makePageArray().map((pageNum) => (
+        <li onClick={(e) => updatePageNumber(e)} value={pageNum - 1}>
+          {pageNum}
+        </li>
+      ))}
+    </ul>
+  );
+};
 
 export default PageNavigation;

@@ -1,8 +1,10 @@
 .archive-score {
   position: absolute;
-  margin-top: 3px;
-  margin-left: 10px;
 }
+.archive-score > div {
+  /* left: 20px; */
+}
+
 .circle-chart {
   width: 45px;
   height: 45px;
@@ -12,10 +14,13 @@
   background-color: #fff;
 }
 
-.fill-chart {
+.chart-fill {
   width: 45px;
   height: 45px;
   padding: 2px 12px 13px 14px;
   transform: rotate(-180deg);
   background-color: #a8122f;
+}
+
+.fill-chart {
 }

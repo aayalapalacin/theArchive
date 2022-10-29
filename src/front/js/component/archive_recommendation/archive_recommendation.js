@@ -23,7 +23,6 @@ const ArchiveRecommendation = ({ pc9 }) => {
       <Pc9Result matchingJean={matchingJean} />
       <RetiredFavorite />
       <RecommendationList pc9={pc9} />
-      <PageNavigation />
     </div>
   );
 };
