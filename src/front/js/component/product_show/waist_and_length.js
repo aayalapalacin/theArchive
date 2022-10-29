@@ -1,13 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "../../../styles/product_show/waist_and_length.css";
+import { Context } from "../../store/appContext";
 
 export const WaistAndLength = ({
   product,
   model = { height: `5'9"`, waist: "27" },
 }) => {
-  const [waistSize, setWaistSize] = useState();
-  const [length, setLength] = useState();
+  const { store, actions } = useContext(Context);
+  // const pc9 = store.pc9[0]?.pc9Input;
+
+  console.log(store);
+  const [waistSize, setWaistSize] = useState(store.waist[0]);
+  const [length, setLength] = useState(store.length[0]);
 
   // Selection Choices
   const waistSizeOptions = [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33];
