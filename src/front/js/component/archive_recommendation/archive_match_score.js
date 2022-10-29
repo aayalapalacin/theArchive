@@ -12,7 +12,7 @@ const ArchiveMatchScore = ({ archiveRating }) => {
         fontSize={11.6}
         fontColor={"black"}
         strokeLinecap={"square"}
-        primaryColor={["red", "red"]}
+        primaryColor={["#A6253F", "#A6253F"]}
         secondaryColor={"white"}
       />
     </div>

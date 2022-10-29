@@ -11,7 +11,7 @@ const ArchiveRecommendation = ({}) => {
   const { store, actions } = useContext(Context);
   const pc9 = store.pc9[0]?.pc9Input;
   const [matchingJean, setMatchingJean] = useState(MatchPc9(pc9));
-
+  console.log("store", store);
   return (
     <div>
       <ArchiveHeader />
