@@ -78,9 +78,9 @@ export const Home = ({}) => {
       <div className="row shippingAndQuantity">
         <ShippingAndQuantity />
       </div>
-
-      {/* footer in footer.js and layout.js */}
-      {/* <Footer /> */}
+      <div className="hide-in-web-view">
+        <AddToBag />
+      </div>
     </div>
   );
 };
