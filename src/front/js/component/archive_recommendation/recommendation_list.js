@@ -3,6 +3,7 @@ import RecommendationListItem from "./recomendation_list_item";
 import "../../../styles/archive_recommendation/recommendation_list.css";
 import { paginateRecommendationList } from "../../../util/levi_datatbase_util";
 import PageNavigation from "./page_navigation";
+import FilterSort from "./filter_sort";
 
 const RecommendationList = ({ pc9, numPerPage = 6 }) => {
   const [recommendationList, setRecommendationList] = useState(
@@ -12,6 +13,9 @@ const RecommendationList = ({ pc9, numPerPage = 6 }) => {
 
   return (
     <div className="recommendation-list-container">
+      <FilterSort
+        itemCount={recommendationList?.flat().length || 0}
+      ></FilterSort>
       <div className="recommendation-list-header">
         <div className="tenPx">Based on the PC9 code</div>
         <div className="fourteenPx">The Archive Reccomends</div>
