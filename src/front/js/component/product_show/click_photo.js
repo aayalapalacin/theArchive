@@ -37,7 +37,7 @@ function Click_photo({ jean }) {
             <img
               src={
                 jean?.ImgFront ||
-                "https://lsco.scene7.com/is/image/lsco/A09640003-front-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+                "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414"
               }
               class="d-block w-100"
               alt="photo1"
@@ -46,8 +46,8 @@ function Click_photo({ jean }) {
           <div class="carousel-item">
             <img
               src={
-                jean?.ImgFront ||
-                "https://lsco.scene7.com/is/image/lsco/A09640003-side-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+                jean?.ImgSide ||
+                "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414"
               }
               class="d-block w-100"
               alt="photo2"
@@ -56,8 +56,8 @@ function Click_photo({ jean }) {
           <div class="carousel-item">
             <img
               src={
-                jean?.ImgFront ||
-                "https://lsco.scene7.com/is/image/lsco/A09640003-back-pdp?fmt=jpeg&amp;qlt=70,1&amp;op_sharpen=0&amp;resMode=sharp2&amp;op_usm=0.8,1,10,0&amp;fit=crop,0&amp;wid=600&amp;hei=552"
+                jean?.ImgBack ||
+                "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414"
               }
               class="d-block w-100"
               alt="photo3"
