@@ -34,7 +34,7 @@ export const Home = ({}) => {
       </div>
 
       <div className="row productPrice hide-in-mobile-view">
-        <ProductPrice />
+        <ProductPrice jean={jean} />
       </div>
       <div className="row clickPhotos">
         <Click_photo jean={jean} />
