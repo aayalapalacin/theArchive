@@ -1,7 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Formik, Form } from "formik";
+import { Link } from "react-router-dom";
 import TextField from "../component/textField";
 import * as Yup from "yup";
 import pc9Img from "../../img/pc9_2.png";
@@ -14,7 +16,7 @@ const validate = Yup.object({
     .min(9, "must be 9 characters long"),
 });
 
-function Pc9Input() {
+function Pc9Input(props) {
   return (
     <Formik
       initialValues={{
@@ -24,6 +26,7 @@ function Pc9Input() {
     >
       {(formik) => (
         <div>
+          {console.log(formik.values)}
           <div className="row archiveBackBtn">
             <div className="col-1">
               <FontAwesomeIcon
@@ -62,8 +65,12 @@ function Pc9Input() {
             </div>
           </div>
           <div className="row submit">
-            <button className=" mx-auto mt-5 submitBtn" type="submit">
-              Submit
+            <button
+              onClick={() => props.actions(formik.values)}
+              className=" mx-auto mt-5 submitBtn"
+              type="submit"
+            >
+              <Link to="/archive">Submit</Link>
             </button>
           </div>
         </div>
@@ -71,5 +78,8 @@ function Pc9Input() {
     </Formik>
   );
 }
+Pc9Input.propTypes = {
+  data: PropTypes.object,
+};
 
 export default Pc9Input;

@@ -334,7 +334,13 @@ for (let i = 0; i < leviDatabase.length; i++) {
 let seventyFiveMatch = leviDatabase.filter((item) => item.match == 75);
 
 function LeviBackend() {
-  return <div> levi</div>;
+  return (
+    <div>
+      {leviDatabase.map((item, index) => {
+        return <div key={index}>{item.Product_Name_Taxonomy_US}</div>;
+      })}
+    </div>
+  );
 }
 
 export default LeviBackend;
