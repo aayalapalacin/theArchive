@@ -8,7 +8,8 @@ const getState = ({ getStore, getActions, setStore }) => {
     actions: {
       addPc9: (data) => {
         console.log("pc9 data", data);
-        setStore({ pc9: data });
+        const store = getStore();
+        setStore({ pc9: [...store.pc9, data] });
       },
     },
   };

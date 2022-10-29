@@ -1,6 +1,8 @@
+import React, { useContext } from "react";
+import { Context } from "../js/store/appContext";
+
 const leviDatabase = [
   {
-
     Identifier: "523490025",
     Product_Name_Taxonomy_US: "Wedgie Fit Skinny Women's Jeans (Plus Size)",
     Size_Group_Taxonomy_US: "Womens_Plus_Size",
@@ -441,12 +443,16 @@ const leviDatabase = [
 ];
 
 export const ArchiveMatch = (input = "362530001") => {
+  const { store, actions } = useContext(Context);
+
   let oneHundredPercentMatch = [];
   let eightyFivePercentMatch = [];
   let seventyFivePercentMatch = [];
   let fiftyPercentMatch = [];
   let twentyFivePercentMatch = [];
 
+  let pc9Code = store.pc9[0]?.pc9Input;
+  console.log("pc9Code: " + pc9Code);
   let inputProduct = leviDatabase.filter((item) => item.Identifier == input);
 
   for (let i = 0; i < leviDatabase.length; i++) {
@@ -500,17 +506,16 @@ export const ArchiveMatch = (input = "362530001") => {
         break;
       }
     }
-    }
-    return [
-      oneHundredPercentMatch,
-      eightyFivePercentMatch,
-      seventyFivePercentMatch,
-      fiftyPercentMatch,
-      twentyFivePercentMatch,
-    ];  
+  }
+  return [
+    oneHundredPercentMatch,
+    eightyFivePercentMatch,
+    seventyFivePercentMatch,
+    fiftyPercentMatch,
+    twentyFivePercentMatch,
+  ];
 };
 console.log(leviDatabase.length, "length");
-
 
 export const MatchPc9 = (pc9 = "362530001") => {
   return leviDatabase.filter((item) => item.Identifier == pc9);
