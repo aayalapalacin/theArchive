@@ -20,11 +20,13 @@ export const Home = () => {
     <div className="container px-0 ">
       {/* navbar in navbar.js and layout.js */}
 
-      <div>
+      <div className="text-center">
         <hr class="solid" />
-        <img src="https://i.imgur.com/Byxw9LD.png" height="20px"></img>
-        <text>Visit the Archive for a perfect fit.</text>
-        <img src="https://i.imgur.com/hVTiMmi.png" height="20px"></img>
+        <div>
+          {/* <img src="https://i.imgur.com/Byxw9LD.png" height="20px"></img> */}
+          <p>Visit the Archive for a perfect fit.</p>
+          {/* <img src="https://i.imgur.com/hVTiMmi.png" height="20px"></img> */}
+        </div>
         <hr class="solid" />
       </div>
 
