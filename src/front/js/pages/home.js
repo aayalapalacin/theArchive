@@ -2,15 +2,15 @@ import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
-import Click_photo from "../component/click_photo";
-import Size_and_color from "../component/size_and_color";
-import { WaistAndLength } from "../component/waist_and_length";
-import Name_and_review from "../component/name_and_review";
-import AddToBag from "../component/add_to_bag";
-import WhatsMySize from "../component/whats_my_size";
+import Click_photo from "../component/product_show/click_photo";
+import Size_and_color from "../component/product_show/size_and_color";
+import { WaistAndLength } from "../component/product_show/waist_and_length";
+import Name_and_review from "../component/product_show/name_and_review";
+import AddToBag from "../component/product_show/add_to_bag";
+import WhatsMySize from "../component/product_show/whats_my_size";
 import { Footer } from "../component/footer";
-import ProductPrice from "../component/product_price";
-import ShippingAndQuantity from "../component/shipping_and_quantity";
+import ProductPrice from "../component/product_show/product_price";
+import ShippingAndQuantity from "../component/product_show/shipping_and_quantity";
 import { Link, useLocation } from "react-router-dom";
 
 export const Home = ({}) => {
@@ -78,7 +78,6 @@ export const Home = ({}) => {
       <div className="row shippingAndQuantity">
         <ShippingAndQuantity />
       </div>
-      <Link to="/archive"> ***Archive Page Link DELETE LATE **** </Link>
 
       {/* footer in footer.js and layout.js */}
       {/* <Footer /> */}

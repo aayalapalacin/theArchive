@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/whats_my_size.css";
+import "../../../styles/product_show/whats_my_size.css";
 
 const WhatsMySize = () => {
   const [myGender, setMyGender] = useState();

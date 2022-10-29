@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../styles/size_and_color.css";
+import "../../../styles/product_show/size_and_color.css";
 import WhatsMySize from "./whats_my_size";
 
 const SizeAndColor = () => {

@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import "../../styles/waist_and_length.css";
+import "../../../styles/product_show/waist_and_length.css";
 
 export const WaistAndLength = ({
   product,
@@ -10,11 +10,9 @@ export const WaistAndLength = ({
   const [length, setLength] = useState();
 
   // Selection Choices
-  const waistSizeOptions = [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+  const waistSizeOptions = [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33];
   const lengthOptions = [26, 28, 30];
   //
-
-
 
   const updateWaistSize = (e) => setWaistSize(e.target.value);
   const updateLength = (e) => setLength(e.target.value);
@@ -23,7 +21,6 @@ export const WaistAndLength = ({
     <div className="waist-length-container">
       <label for="waist-size">Waist</label>
       <div onChange={(e) => updateWaistSize(e)} className="size-radio">
-
         {waistSizeOptions.map((sizeOption) => {
           return (
             <label>

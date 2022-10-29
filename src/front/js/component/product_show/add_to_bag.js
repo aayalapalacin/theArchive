@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/add_to_bag.css";
+import "../../../styles/product_show/add_to_bag.css";
 
 const AddToBag = () => {
   return (

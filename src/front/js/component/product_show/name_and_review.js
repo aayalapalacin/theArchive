@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faStarHalf } from "@fortawesome/free-solid-svg-icons";
-import "../../styles/name_and_review.css";
+import "../../../styles/product_show/name_and_review.css";
 function Name_and_review({ jean }) {
   return (
     <div>

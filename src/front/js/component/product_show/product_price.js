@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/product_price.css";
+import "../../../styles/product_show/product_price.css";
 
 const ProductPrice = ({ jean = { Price: 98.0 } }) => {
   return (
