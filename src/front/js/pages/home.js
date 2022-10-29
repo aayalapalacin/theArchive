@@ -61,7 +61,7 @@ export const Home = ({}) => {
       </div>
 
       <div className="row sizeColor">
-        <Size_and_color />
+        <Size_and_color jean={jean} />
       </div>
       <div className="row whatsMySize">
         <WhatsMySize />

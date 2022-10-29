@@ -2,8 +2,11 @@ import React, { useState, useEffect } from "react";
 import "../../../styles/product_show/size_and_color.css";
 import WhatsMySize from "./whats_my_size";
 
-const SizeAndColor = () => {
-  const [chosenColor, setChosenColor] = useState(false); // initialized false to avoid controlled component warning. will become int
+const SizeAndColor = ({ jean }) => {
+  const [chosenColor, setChosenColor] = useState(
+    // jean?.Color_Group_Taxonomy_US ||
+    false
+  ); // initialized false to avoid controlled component warning. will become int
   const [expandOptions, setExpandOptions] = useState(false);
 
   const updateChosenColor = (e) => setChosenColor(e.target.value);
