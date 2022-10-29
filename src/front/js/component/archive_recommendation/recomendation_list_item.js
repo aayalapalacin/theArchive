@@ -6,6 +6,7 @@ import ArchiveMatchScore from "./archive_match_score";
 
 const RecommendationListItem = ({ product = {} }) => {
   if (!("ImgFront" in product)) product.ImgFront = getRandomJeanImage();
+  if (!("Price" in product)) product.Price = 98.0;
   return (
     <div className="recommendation-list-item-container">
       <Link to="/browsingPage" state={{ jean: product }}>
@@ -16,7 +17,7 @@ const RecommendationListItem = ({ product = {} }) => {
         <div className="recommendation-list-item-details">
           <div>{product?.Product_Name_Taxonomy_US}</div>
           <div>
-            <strong>${product?.Price || 99.99}</strong>
+            <strong>${product?.Price.toFixed(2)}</strong>
           </div>
         </div>
       </Link>
