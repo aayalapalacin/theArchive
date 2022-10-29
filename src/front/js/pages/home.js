@@ -29,12 +29,34 @@ export const Home = () => {
       <div className="row reviews px-3">
         <Name_and_review />
       </div>
+
       <div className="row productPrice hide-in-mobile-view">
         <ProductPrice />
       </div>
       <div className="row clickPhotos">
         <Click_photo />
       </div>
+
+      <div className="border border-muted rounded">
+        <p className="h7">Archive</p>
+        <p>
+          This item is a xx% match to your preferences, but may be on the
+          tighter side.
+        </p>
+
+        <div>
+          <a href="" className=" text-dark font-weight-bold">
+            View Fit Details
+          </a>
+        </div>
+
+        <div>
+          <a href="" className="text-danger">
+            Browse Similar Products
+          </a>
+        </div>
+      </div>
+
       <div className="row sizeColor">
         <Size_and_color />
       </div>
