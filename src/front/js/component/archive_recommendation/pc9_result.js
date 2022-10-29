@@ -3,6 +3,7 @@ import "../../../styles/archive_recommendation/pc9_result.css";
 import { getRandomJeanImage } from "../../../util/levi_datatbase_util";
 
 const Pc9Result = ({ matchingJean }) => {
+  console.log(matchingJean);
   return (
     <div>
       <img

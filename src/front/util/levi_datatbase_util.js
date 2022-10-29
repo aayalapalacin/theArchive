@@ -511,7 +511,7 @@ export const ArchiveMatch = (input = "362530001") => {
 console.log(leviDatabase.length, "length");
 
 export const MatchPc9 = (pc9 = "362530001") => {
-  return leviDatabase.filter((item) => item.Identifier == pc9);
+  return leviDatabase.filter((item) => item.Identifier == pc9)[0];
 };
 
 export const getRandomJeanImage = () => {

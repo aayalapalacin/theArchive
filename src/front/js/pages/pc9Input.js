@@ -70,7 +70,9 @@ function Pc9Input(props) {
               className=" mx-auto mt-5 submitBtn"
               type="submit"
             >
-              <Link to="/archive">Submit</Link>
+              <Link to="/archive" state={{ pc9: formik.values }}>
+                Submit
+              </Link>
             </button>
           </div>
         </div>
