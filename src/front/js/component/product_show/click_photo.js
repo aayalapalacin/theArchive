@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../../../styles/product_show/click_photo.css";
 
 function Click_photo({ jean }) {
+  console.log("jean", jean);
   return (
     <div className="container">
       <div
