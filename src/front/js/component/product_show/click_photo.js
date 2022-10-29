@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../../styles/click_photo.css";
+import "../../../styles/product_show/click_photo.css";
 
 function Click_photo({ jean }) {
   return (
