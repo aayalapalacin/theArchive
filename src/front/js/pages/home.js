@@ -22,10 +22,12 @@ export const Home = () => {
 
       <div className="text-center">
         <hr class="solid" />
-        <div>
-          {/* <img src="https://i.imgur.com/Byxw9LD.png" height="20px"></img> */}
-          <p>Visit the Archive for a perfect fit.</p>
-          {/* <img src="https://i.imgur.com/hVTiMmi.png" height="20px"></img> */}
+        <div className="text-center">
+          <p>
+            <img src="https://i.imgur.com/Byxw9LD.png" height="20px" /> Visit
+            the Archive for a perfect fit.{" "}
+            <img src="https://i.imgur.com/hVTiMmi.png" height="20px" />
+          </p>
         </div>
         <hr class="solid" />
       </div>
