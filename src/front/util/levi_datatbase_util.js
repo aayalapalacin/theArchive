@@ -1,6 +1,5 @@
 const leviDatabase = [
   {
-
     Identifier: "523490025",
     Product_Name_Taxonomy_US: "Wedgie Fit Skinny Women's Jeans (Plus Size)",
     Size_Group_Taxonomy_US: "Womens_Plus_Size",
@@ -500,17 +499,16 @@ export const ArchiveMatch = (input = "362530001") => {
         break;
       }
     }
-    }
-    return [
-      oneHundredPercentMatch,
-      eightyFivePercentMatch,
-      seventyFivePercentMatch,
-      fiftyPercentMatch,
-      twentyFivePercentMatch,
-    ];  
+  }
+  return [
+    oneHundredPercentMatch,
+    eightyFivePercentMatch,
+    seventyFivePercentMatch,
+    fiftyPercentMatch,
+    twentyFivePercentMatch,
+  ];
 };
 console.log(leviDatabase.length, "length");
-
 
 export const MatchPc9 = (pc9 = "362530001") => {
   return leviDatabase.filter((item) => item.Identifier == pc9);

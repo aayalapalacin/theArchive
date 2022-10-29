@@ -13,7 +13,7 @@ const validate = Yup.object({
   lengthInput: Yup.string().required("This field is required"),
 });
 
-function WaistLengthInput() {
+function WaistLengthInput(props) {
   return (
     <Formik
       initialValues={{
@@ -73,8 +73,16 @@ function WaistLengthInput() {
               />
             </div>
           </div>
+          {console.log(formik.values.waistInput, "tester")}
           <div className="row submit">
-            <button className=" mx-auto mt-5 submitBtn" type="submit">
+            <button
+              onClick={() => {
+                props.actionWaist(formik.values.waistInput);
+                props.actionLength(formik.values.lengthInput);
+              }}
+              className=" mx-auto mt-5 submitBtn"
+              type="submit"
+            >
               <Link to="/pc9">Submit</Link>
             </button>
           </div>

@@ -17,7 +17,6 @@ const validate = Yup.object({
 });
 
 function Pc9Input(props) {
-  console.log(props, "props pc9");
   return (
     <Formik
       initialValues={{
@@ -67,7 +66,7 @@ function Pc9Input(props) {
           </div>
           <div className="row submit">
             <button
-              // onClick={props.addPc9(formik.values)}
+              onClick={() => props.actions(formik.values)}
               className=" mx-auto mt-5 submitBtn"
               type="submit"
             >

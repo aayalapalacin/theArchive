@@ -31,7 +31,13 @@ const Layout = () => {
           <Routes>
             <Route element={<Home />} path="/browsingPage" />
             <Route element={<ArchiveRecommendation />} path="/archive" />
-            <Route element=<WaistLengthInput /> path="/" />
+            <Route
+              element=<WaistLengthInput
+                actionWaist={actions.addWaist}
+                actionLength={actions.addLength}
+              />
+              path="/"
+            />
             <Route element=<Pc9Input actions={actions.addPc9} /> path="/pc9" />
             <Route element=<LeviBackend /> path="/leviBackend" />
 
