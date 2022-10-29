@@ -1,6 +1,5 @@
 const leviDatabase = [
   {
-
     Identifier: "523490025",
     Product_Name_Taxonomy_US: "Wedgie Fit Skinny Women's Jeans (Plus Size)",
     Size_Group_Taxonomy_US: "Womens_Plus_Size",
@@ -500,18 +499,66 @@ export const ArchiveMatch = (input = "362530001") => {
         break;
       }
     }
-    }
-    return [
-      oneHundredPercentMatch,
-      eightyFivePercentMatch,
-      seventyFivePercentMatch,
-      fiftyPercentMatch,
-      twentyFivePercentMatch,
-    ];  
+  }
+  return [
+    oneHundredPercentMatch,
+    eightyFivePercentMatch,
+    seventyFivePercentMatch,
+    fiftyPercentMatch,
+    twentyFivePercentMatch,
+  ];
 };
 console.log(leviDatabase.length, "length");
 
-
 export const MatchPc9 = (pc9 = "362530001") => {
   return leviDatabase.filter((item) => item.Identifier == pc9);
+};
+
+export const getRandomJeanImage = () => {
+  let imagePool = [
+    "https://lsco.scene7.com/is/image/lsco/A15600003-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/527970310-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/362000236-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/A19670001-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/527970340-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/269860016-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/373430006-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    // "https://lsco.scene7.com/is/image/lsco/A49690000-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/levis/clothing/188810012-front-pdp.jpg?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/373500152-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/362000124-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/388430016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+    "https://lsco.scene7.com/is/image/lsco/228610107-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+  ];
+  return imagePool[Math.floor(Math.random() * imagePool.length)];
+};
+
+export const assembleRecocommendationList = (pc9) => {
+  let matches = ArchiveMatch(pc9);
+  return [
+    ...matches[0],
+    ...matches[1],
+    ...matches[2],
+    ...matches[3],
+    ...matches[4],
+  ];
+};
+
+export const paginateRecommendationList = (pc9, numPerPage) => {
+  let paginated = [];
+  let recommendationList = assembleRecocommendationList(pc9);
+  let curPage = [];
+  for (let i = 0; i < recommendationList.length; i++) {
+    curPage.push(recommendationList[i]);
+    if (curPage.length === numPerPage) {
+      paginated.push(curPage);
+      curPage = [];
+    }
+  }
+  if (curPage.length) paginated.push(curPage);
+  return paginated;
 };
