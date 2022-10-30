@@ -6,8 +6,8 @@ export const ArchiveMatch = (
   lengthInput = 28
 ) => {
   let oneHundredPercentMatch = [];
+  let ninetyFivePercentMatch = [];
   let eightyFivePercentMatch = [];
-  let seventyFivePercentMatch = [];
   let fiftyPercentMatch = [];
   let twentyFivePercentMatch = [];
 
@@ -29,8 +29,6 @@ export const ArchiveMatch = (
         checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
         leviDatabase[i].Stretch_Taxonomy_US ==
           inputProduct.Stretch_Taxonomy_US &&
-        leviDatabase[i].Color_Group_Taxonomy_US ==
-          inputProduct.Color_Group_Taxonomy_US &&
         checkMeasurementMatch(
           waistInput,
           lengthInput,
@@ -45,8 +43,19 @@ export const ArchiveMatch = (
           inputProduct.Size_Group_Taxonomy_US &&
         leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
         checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
-        leviDatabase[i].Stretch_Taxonomy_US ==
-          inputProduct.Stretch_Taxonomy_US &&
+        checkMeasurementMatch(
+          waistInput,
+          lengthInput,
+          inputProduct,
+          leviDatabase[i]
+        )
+      ) {
+        leviDatabase[i]["match"] = 95;
+        ninetyFivePercentMatch.push(leviDatabase[i]);
+      } else if (
+        leviDatabase[i].Size_Group_Taxonomy_US ==
+          inputProduct.Size_Group_Taxonomy_US &&
+        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
         checkMeasurementMatch(
           waistInput,
           lengthInput,
@@ -56,20 +65,6 @@ export const ArchiveMatch = (
       ) {
         leviDatabase[i]["match"] = 85;
         eightyFivePercentMatch.push(leviDatabase[i]);
-      } else if (
-        leviDatabase[i].Size_Group_Taxonomy_US ==
-          inputProduct.Size_Group_Taxonomy_US &&
-        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
-        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
-        checkMeasurementMatch(
-          waistInput,
-          lengthInput,
-          inputProduct,
-          leviDatabase[i]
-        )
-      ) {
-        leviDatabase[i]["match"] = 75;
-        seventyFivePercentMatch.push(leviDatabase[i]);
       } else if (
         leviDatabase[i].Size_Group_Taxonomy_US ==
           inputProduct.Size_Group_Taxonomy_US &&
@@ -89,8 +84,8 @@ export const ArchiveMatch = (
   }
   return [
     oneHundredPercentMatch,
+    ninetyFivePercentMatch,
     eightyFivePercentMatch,
-    seventyFivePercentMatch,
     fiftyPercentMatch,
     twentyFivePercentMatch,
   ];
