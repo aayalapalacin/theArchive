@@ -16,15 +16,14 @@ function archiveBox() {
         <div className="h6">
           <p className="fw-bold">Archive</p>
           <p>
-            This item is a<span className="fw-bold"> {jean.match}% </span>
-            match to your preferences, but may be on the tighter side.
+            This item is a<span className="fw-bold"> {jean.match}% </span> 
+            match <br/>to your preferences, but <br/> may be on the tighter side.
           </p>
         </div>
 
         <div className="p-1">
           {/* <img src="https://i.imgur.com/uCdRz84.png" height="100px"></img> */}
-          <ArchiveMatchScore />
-          //{jean.match}
+          <ArchiveMatchScore archiveRating={jean.match} />
         </div>
       </div>
 
