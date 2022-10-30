@@ -31,4 +31,6 @@
 #circle_reactGradientProgressPercentage__3mR2b ::before {
   content: "A";
   color: #a8122f;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
