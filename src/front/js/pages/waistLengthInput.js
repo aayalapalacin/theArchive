@@ -7,10 +7,15 @@ import TextField from "../component/textField";
 import * as Yup from "yup";
 import wLImg from "../../img/PC9-W26_L28.png";
 import "../../styles/pc9Input.css";
+import "../../styles/waistLengthInput.css";
 
 const validate = Yup.object({
-  waistInput: Yup.string().required("This field is required"),
-  lengthInput: Yup.string().required("This field is required"),
+  waistInput: Yup.string()
+    .required("This field is required")
+    .max(3, "Cannot exceed 3 characters"),
+  lengthInput: Yup.string()
+    .required("This field is required")
+    .max(3, "Cannot exceed 3 characters"),
 });
 
 function WaistLengthInput(props) {
@@ -55,7 +60,7 @@ function WaistLengthInput(props) {
             <div>
               <TextField
                 className="waistLengthInputField ms-2"
-                label="Waist"
+                label="W"
                 id="waistInput"
                 name="waistInput"
                 type="text"
@@ -66,7 +71,7 @@ function WaistLengthInput(props) {
             <div>
               <TextField
                 className="waistLengthInputField ms-2"
-                label="length"
+                label="L"
                 id="lengthInput"
                 name="lengthInput"
                 type="text"
