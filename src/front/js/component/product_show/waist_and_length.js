@@ -11,8 +11,19 @@ export const WaistAndLength = ({
   // const pc9 = store.pc9[0]?.pc9Input;
 
   console.log(store);
-  const [waistSize, setWaistSize] = useState(store.waist[0]);
+  console.log(product.Fit);
   const [length, setLength] = useState(store.length[0]);
+  const [waistSize, setWaistSize] = useState(
+    !("Fit" in product)
+      ? store.waist[0]
+      : product.Fit == "true to size"
+      ? store.waist[0]
+      : product.Fit == "runs big"
+      ? parseInt(store.waist[0]) + 1
+      : product.Fit == "runs small"
+      ? parseInt(store.waist[0]) - 1
+      : "true to size"
+  );
 
   // Selection Choices
   const waistSizeOptions = [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33];
@@ -63,7 +74,7 @@ export const WaistAndLength = ({
         </div>
         <p>
           <strong>Fit:</strong> Customers say{" "}
-          {product ? product.fit : "________"}
+          {product ? ("Fit" in product ? product.Fit : "________") : "________"}
         </p>
         <p>
           Model is {model.height} wearing a size {model.waist} waist
