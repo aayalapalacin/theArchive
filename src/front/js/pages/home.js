@@ -11,6 +11,7 @@ import WhatsMySize from "../component/product_show/whats_my_size";
 import { Footer } from "../component/footer";
 import ProductPrice from "../component/product_show/product_price";
 import ShippingAndQuantity from "../component/product_show/shipping_and_quantity";
+import archiveBox from "../component/archive_box";
 import { Link, useLocation } from "react-router-dom";
 
 export const Home = ({}) => {
@@ -24,9 +25,11 @@ export const Home = ({}) => {
       <div className="text-center">
         <hr class="solid" />
         <div>
-          {/* <img src="https://i.imgur.com/Byxw9LD.png" height="20px"></img> */}
-          <p>Visit the Archive for a perfect fit.</p>
-          {/* <img src="https://i.imgur.com/hVTiMmi.png" height="20px"></img> */}
+          <p>
+            <img src="https://i.imgur.com/Byxw9LD.png" height="20px" />
+            Visit the Archive for a perfect fit.{" "}
+            <img src="https://i.imgur.com/hVTiMmi.png" height="20px" />
+          </p>
         </div>
         <hr class="solid" />
       </div>
@@ -42,25 +45,10 @@ export const Home = ({}) => {
         <Click_photo jean={jean} />
       </div>
 
-      <div className="border border-muted rounded">
-        <p className="h7">Archive</p>
-        <p>
-          This item is a {jean?.match || "XX"}% match to your preferences, but
-          may be on the tighter side.
-        </p>
+      <br />
 
-        <div>
-          <a href="" className=" text-dark font-weight-bold">
-            View Fit Details
-          </a>
-        </div>
-
-        <div>
-          <a href="" className="text-danger">
-            Browse Similar Products
-          </a>
-        </div>
-      </div>
+      <div>the archive box</div>
+      <archiveBox />
 
       <div className="row sizeColor">
         <Size_and_color jean={jean} />
