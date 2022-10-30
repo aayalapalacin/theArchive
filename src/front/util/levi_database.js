@@ -16,40 +16,7 @@ export const leviDatabase = [
     ImgBack:
       "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
-  {
-    Identifier: "349640047",
-    Product_Name_Taxonomy_US: "Wedgie Straight Fit Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Wedgie",
-    Stretch_Taxonomy_US: null,
-    Color_Group_Taxonomy_US: "Light Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "188820452",
-    Product_Name_Taxonomy_US: "721 High Rise Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: null,
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Light Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
+
   {
     Identifier: "A15600003",
     Product_Name_Taxonomy_US: "Low Pitch Bootcut Women's Jeans",
@@ -61,46 +28,13 @@ export const leviDatabase = [
     Price: 69.5,
     Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
     ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/A15600003-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/A15600003-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/A15600003-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
-  {
-    Identifier: "188850025",
-    Product_Name_Taxonomy_US: "715 Bootcut Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Bootcut",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Medium Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "177800065",
-    Product_Name_Taxonomy_US: "710 Super Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Skinny,Super Skinny",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Light Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
+
   {
     Identifier: "A08980016",
     Product_Name_Taxonomy_US: "70's High Rise Slim Straight Women's Jeans",
@@ -129,29 +63,13 @@ export const leviDatabase = [
     Price: 69.5,
     Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
     ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/527970310-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/527970310-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/527970310-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
-  {
-    Identifier: "527970067",
-    Product_Name_Taxonomy_US: "720 High Rise Super Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Super Skinny,Skinny",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Light Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
+
   {
     Identifier: "227910184",
     Product_Name_Taxonomy_US: "Mile High Super Skinny Women's Jeans",
@@ -165,9 +83,9 @@ export const leviDatabase = [
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/227910184-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/227910184-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
     Identifier: "362000180",
@@ -180,46 +98,13 @@ export const leviDatabase = [
     Price: 69.5,
     Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
     ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "564770027",
-    Product_Name_Taxonomy_US: "721 High Rise Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Skinny",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Black",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "188820357",
-    Product_Name_Taxonomy_US: "721 High Rise Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Skinny",
-    Stretch_Taxonomy_US: null,
-    Color_Group_Taxonomy_US: "Black",
-    Price: 108.0,
-    Waist: { 23: 23, 24: 24, 25: 25 },
-    ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/362000180-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/362000180-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
+
   {
     Identifier: "227910147",
     Product_Name_Taxonomy_US: "Mile High Super Skinny Women's Jeans",
@@ -231,62 +116,11 @@ export const leviDatabase = [
     Price: 69.5,
     Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
     ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/227910147-side-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "188820166",
-    Product_Name_Taxonomy_US: "721 High Rise Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Skinny",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Dark Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "196310153",
-    Product_Name_Taxonomy_US: "314 Shaping Straight Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Skinny",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Medium Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-  },
-  {
-    Identifier: "227910039",
-    Product_Name_Taxonomy_US: "Mile High Super Skinny Women's Jeans",
-    Size_Group_Taxonomy_US: "Womens",
-    Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: "Skinny,Super Skinny,Mile High",
-    Stretch_Taxonomy_US: "Stretch",
-    Color_Group_Taxonomy_US: "Medium Wash",
-    Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
-    ImgFront:
-      "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgSide:
-      "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
-    ImgBack:
-      "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
+      "https://lsco.scene7.com/is/image/lsco/227910147-detail1-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
 
   {
@@ -329,7 +163,7 @@ export const leviDatabase = [
     Product_Name_Taxonomy_US: "726 High Rise Flare Women's Jeans (Plus Size)",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: null,
+    Fit_Taxonomy_US: "",
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
@@ -397,7 +231,7 @@ export const leviDatabase = [
     Product_Name_Taxonomy_US: "501® Original Cropped Women's Jeans",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: null,
+    Fit_Taxonomy_US: "",
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 108.0,
@@ -482,7 +316,7 @@ export const leviDatabase = [
     Product_Name_Taxonomy_US: "720 High Rise Super Skinny Women's Jeans",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: null,
+    Fit_Taxonomy_US: "",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 98.0,
@@ -517,7 +351,7 @@ export const leviDatabase = [
     Size_Group_Taxonomy_US: "Big Girls",
     Gender_Taxonomy_US: "Girls",
     Fit_Taxonomy_US: "Straight",
-    Stretch_Taxonomy_US: null,
+    Stretch_Taxonomy_US: "",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 44.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
@@ -533,8 +367,8 @@ export const leviDatabase = [
     Product_Name_Taxonomy_US: "Levi's® x Danielle Guizio Classic Baggy Jeans",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: null,
-    Stretch_Taxonomy_US: null,
+    Fit_Taxonomy_US: "",
+    Stretch_Taxonomy_US: "",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 346.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
@@ -568,7 +402,7 @@ export const leviDatabase = [
     Size_Group_Taxonomy_US: "Big Girls",
     Gender_Taxonomy_US: "Girls",
     Fit_Taxonomy_US: "Skinny,Super Skinny",
-    Stretch_Taxonomy_US: null,
+    Stretch_Taxonomy_US: "",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 40.0,
     Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
@@ -636,7 +470,7 @@ export const leviDatabase = [
     Product_Name_Taxonomy_US: "710 Super Skinny Women's Jeans",
     Size_Group_Taxonomy_US: "Womens",
     Gender_Taxonomy_US: "Women",
-    Fit_Taxonomy_US: null,
+    Fit_Taxonomy_US: "",
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
