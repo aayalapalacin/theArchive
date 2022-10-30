@@ -19,9 +19,9 @@ export const WaistAndLength = ({
       : product.Fit == "true to size"
       ? store.waist[0]
       : product.Fit == "runs big"
-      ? parseInt(store.waist[0]) + 1
-      : product.Fit == "runs small"
       ? parseInt(store.waist[0]) - 1
+      : product.Fit == "runs small"
+      ? parseInt(store.waist[0]) + 1
       : "true to size"
   );
 
