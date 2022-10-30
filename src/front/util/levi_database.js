@@ -8,7 +8,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -26,7 +27,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A15600003-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -44,7 +46,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 108.0,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A08980016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -61,7 +64,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/527970310-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -79,7 +83,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Waist: { 23: 22.8, 24: 23.7, 25: 24.9 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -96,7 +101,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -114,7 +120,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Black",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -132,7 +139,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Black",
     Price: 108.0,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/349640146-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -149,7 +157,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "White",
     Price: 69.98,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000216-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -167,7 +176,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -184,7 +194,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 108,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -201,7 +212,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Pink",
     Price: 58.98,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "runs big",
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/139420011-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -218,8 +229,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Black",
     Price: 89.5,
-    Waist: { 23: 23, 24: 24, 25: 25 },
-    ImgFront:
+    Fit: "runs big",
+    mgFront:
       "https://lsco.scene7.com/is/image/lsco/188810052-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
       "https://lsco.scene7.com/is/image/lsco/188810052-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -235,7 +246,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 108.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000236-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -252,7 +264,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A19670001-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -269,7 +282,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/527970015-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -286,7 +300,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Black",
     Price: 69.5,
-    Waist: { 23: 22.6, 24: 23.8, 25: 24.7 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/Levis/clothing/196270000-front-pdp.jpg?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -303,7 +318,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 98.0,
-    Waist: { 23: 22.8, 24: 23.9, 25: 24.7 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/125010384-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -320,7 +336,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 98.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/527970340-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -337,7 +354,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/269860016-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -354,7 +372,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 44.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/373430006-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -371,7 +390,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 346.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A49690000-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -388,7 +408,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/levis/clothing/188810012-front-pdp.jpg?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -405,7 +426,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 40.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/373500152-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -422,7 +444,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 108.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000124-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -440,7 +463,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 98.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/388430016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -457,7 +481,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 108.0,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/228610107-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -474,7 +499,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/177780484-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
@@ -491,7 +517,8 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 46.98,
-    Waist: { 23: 23.2, 24: 24.1, 25: 25.3 },
+    Fit: "true to size",
+
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/196260288-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
