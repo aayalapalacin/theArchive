@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../../styles/archiveBox.css";
 import MatchBar from "./product_show/matchBar";
 import { Link, useLocation } from "react-router-dom";
 import ArchiveMatchScore from "./archive_recommendation/archive_match_score";
+import ArchiveTxt from "./product_show/archiveTxt";
 import { CircleProgress } from "react-gradient-progress";
 
 function archiveBox() {
@@ -14,19 +15,16 @@ function archiveBox() {
   return (
     <div className="border border-muted rounded">
       <div className="d-flex p-3">
-        <div className="h6">
+        <div className="h6 me-4">
           <p className="fw-bold">Archive</p>
-          <p>
-            This item is a<span className="fw-bold"> {jean.match}% </span>
-            match to your preferences, but <br /> may be on the tighter side.
-          </p>
+          <ArchiveTxt />
         </div>
 
         <div className="p-1" id="background">
           <CircleProgress
             percentage={jean.match}
             strokeWidth={8}
-            width={150}
+            width={120}
             fontSize={24}
             fontColor={"black"}
             strokeLinecap={"square"}
