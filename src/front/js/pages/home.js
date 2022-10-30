@@ -12,6 +12,7 @@ import { Footer } from "../component/footer";
 import ProductPrice from "../component/product_price";
 import ShippingAndQuantity from "../component/shipping_and_quantity";
 import { Link } from "react-router-dom";
+import ArchiveMatchScore from "../component/archive_recommendation/archive_match_score";
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -44,20 +45,33 @@ export const Home = () => {
       </div>
 
       <div className="border border-muted rounded">
-        <p className="h7">Archive</p>
-        <p>
-          This item is a xx% match to your preferences, but may be on the
-          tighter side.
-        </p>
+        <div className="d-flex">
+          <div>
+            <p>Archive</p>
+            <p>
+              This item is a
+              <span className="text-dark font-weight-bold"> 75% match </span>
+              to your <br />
+              preferences, but may be on the <br />
+              tighter side.
+            </p>
+          </div>
 
-        <div>
-          <a href="" className=" text-dark font-weight-bold">
-            View Fit Details
-          </a>
+          <div>
+            <img src="https://i.imgur.com/uCdRz84.png" height="100px"></img>
+          </div>
         </div>
 
         <div>
-          <a href="" className="text-danger">
+          <img src="https://i.imgur.com/3QhESmN.png" width="95%" />
+        </div>
+
+        <div className="d-flex">
+          <a href="" className="text-dark font-weight-bold p-2">
+            View Fit Details
+          </a>
+
+          <a href="" className="text-danger ml-auto p-2">
             Browse Similar Products
           </a>
         </div>

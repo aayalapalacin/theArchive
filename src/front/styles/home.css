@@ -12,13 +12,13 @@
 
 @media (min-width: 450px) {
   .hide-in-web-view {
-      display: none;
+    display: none;
   }
 }
 
 @media (max-width: 450px) {
   .hide-in-mobile-view {
-      display: none;
+    display: none;
   }
 }
 
