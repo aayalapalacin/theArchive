@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../../styles/archiveBox.css";
 import MatchBar from "./product_show/matchBar";
 import { Link, useLocation } from "react-router-dom";
 import ArchiveMatchScore from "./archive_recommendation/archive_match_score";
+import ArchiveTxt from "./product_show/archiveTxt";
 
 function archiveBox() {
   const location = useLocation();
@@ -15,10 +16,7 @@ function archiveBox() {
       <div className="d-flex p-3">
         <div className="h6">
           <p className="fw-bold">Archive</p>
-          <p>
-            This item is a<span className="fw-bold"> {jean.match}% </span> 
-            match <br/>to your preferences, but <br/> may be on the tighter side.
-          </p>
+          <ArchiveTxt />
         </div>
 
         <div className="p-1">

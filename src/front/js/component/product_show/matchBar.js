@@ -7,10 +7,8 @@ import { Link, useLocation } from "react-router-dom";
 
 function MatchBar() {
   const { store, actions } = useContext(Context);
-  console.log(store.waist[0], "store match");
   const location = useLocation();
   const { jean } = location.state;
-  //   console.log(jean, "jean match");
   let waistInput = store?.waist[0];
   let pc9Input = store?.pc9[0]?.pc9Input;
   let pc9Match = leviDatabase.filter(
@@ -51,7 +49,7 @@ function MatchBar() {
       <div className="d-flex">
         <div className=" ms-4 me-5">Tight</div>
         <div className="ms-5 me-4">Just Right</div>
-        <div className="ms-5 ps-2">Loose</div>
+        <div className="ms-5 ps-2">Loose </div>
       </div>
     </div>
   );
