@@ -8,7 +8,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -27,7 +27,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A15600003-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -46,7 +46,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 108.0,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A08980016-dynamic1-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -64,7 +64,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Dark Wash",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/527970310-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -83,7 +83,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/227910184-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -101,7 +101,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000180-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -120,7 +120,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Black",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/227910147-front-pdp-lse?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -139,7 +139,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Black",
     Price: 108.0,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/349640146-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -157,7 +157,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "White",
     Price: 69.98,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/362000216-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -176,7 +176,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Medium Wash",
     Price: 69.5,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/A36250002-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -194,7 +194,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Non Stretch",
     Color_Group_Taxonomy_US: "Light Wash",
     Price: 108,
-    Fit: "runs big",
+    Fit: "runs small",
 
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/726930111-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
@@ -212,7 +212,7 @@ export const leviDatabase = [
     Stretch_Taxonomy_US: "Stretch",
     Color_Group_Taxonomy_US: "Pink",
     Price: 58.98,
-    Fit: "runs big",
+    Fit: "runs small",
     ImgFront:
       "https://lsco.scene7.com/is/image/lsco/139420011-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
     ImgSide:
