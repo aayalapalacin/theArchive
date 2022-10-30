@@ -16,8 +16,9 @@ function archiveBox() {
         <div className="h6">
           <p className="fw-bold">Archive</p>
           <p>
-            This item is a<span className="fw-bold"> {jean.match}% </span> 
-            match <br/>to your preferences, but <br/> may be on the tighter side.
+            This item is a<span className="fw-bold"> {jean.match}% </span>
+            match <br />
+            to your preferences , but <br /> may be on the tighter side.
           </p>
         </div>
 
