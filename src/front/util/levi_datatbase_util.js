@@ -45,7 +45,14 @@ export const ArchiveMatch = (
           inputProduct.Size_Group_Taxonomy_US &&
         leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
         checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
-        leviDatabase[i].Stretch_Taxonomy_US == inputProduct.Stretch_Taxonomy_US
+        leviDatabase[i].Stretch_Taxonomy_US ==
+          inputProduct.Stretch_Taxonomy_US &&
+        checkMeasurementMatch(
+          waistInput,
+          lengthInput,
+          inputProduct,
+          leviDatabase[i]
+        )
       ) {
         leviDatabase[i]["match"] = 85;
         eightyFivePercentMatch.push(leviDatabase[i]);
@@ -53,7 +60,13 @@ export const ArchiveMatch = (
         leviDatabase[i].Size_Group_Taxonomy_US ==
           inputProduct.Size_Group_Taxonomy_US &&
         leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
-        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i])
+        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
+        checkMeasurementMatch(
+          waistInput,
+          lengthInput,
+          inputProduct,
+          leviDatabase[i]
+        )
       ) {
         leviDatabase[i]["match"] = 75;
         seventyFivePercentMatch.push(leviDatabase[i]);
@@ -102,10 +115,11 @@ const checkMeasurementMatch = (
   optimalJean,
   testJean
 ) => {
-  return (
+  let isMatch =
     matchMeasurements(waistInput, optimalJean.Waist, testJean.Waist) &&
-    matchMeasurements(lengthInput, optimalJean.Length, testJean.Length)
-  );
+    matchMeasurements(lengthInput, optimalJean.Length, testJean.Length);
+  console.log("isMatch", isMatch);
+  return isMatch;
 };
 
 ///// TESTING
