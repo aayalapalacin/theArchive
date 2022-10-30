@@ -12,7 +12,7 @@ const RetiredFavorite = () => {
       width="16"
       height="16"
       fill="currentColor"
-      class="bi bi-heart"
+      className="bi bi-heart"
       viewBox="0 0 16 16"
     >
       {" "}
@@ -26,7 +26,7 @@ const RetiredFavorite = () => {
       width="16"
       height="16"
       fill="currentColor"
-      class="bi bi-suit-heart-fill"
+      className="bi bi-suit-heart-fill"
       viewBox="0 0 16 16"
       id="IconChangeColor"
     >

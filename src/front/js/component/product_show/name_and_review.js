@@ -20,7 +20,7 @@ function Name_and_review({ jean }) {
         </div>
       </div>
       <div className="row name">
-        <h1 class="product-title px-4">
+        <h1 className="product-title px-4">
           {jean?.Product_Name_Taxonomy_US || "311 Shaping Skinny Women's Jeans"}
         </h1>
       </div>
