@@ -1,28 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import "../../styles/archiveBox.css";
+import "../../styles/archiveBox.css";
 import MatchBar from "./product_show/matchBar";
+import { Link, useLocation } from "react-router-dom";
+import ArchiveMatchScore from "./archive_recommendation/archive_match_score";
 
 function archiveBox() {
+  const location = useLocation();
+  const { jean } = location.state;
+  console.log(jean.match, "jean match");
+  // const percentage = { jean.match };
+
   return (
     <div className="border border-muted rounded">
       <div className="d-flex p-3">
         <div className="h6">
           <p className="fw-bold">Archive</p>
           <p>
-            This item is a<span className="fw-bold"> 75% match </span>
-            to your preferences, but may be on the tighter side.
+            This item is a<span className="fw-bold"> {jean.match}% </span> 
+            match <br/>to your preferences, but <br/> may be on the tighter side.
           </p>
         </div>
 
         <div className="p-1">
-          <img src="https://i.imgur.com/uCdRz84.png" height="100px"></img>
+          {/* <img src="https://i.imgur.com/uCdRz84.png" height="100px"></img> */}
+          <ArchiveMatchScore archiveRating={jean.match} />
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <img src="https://i.imgur.com/3QhESmN.png" width="95%" />
-      </div>
+      </div> */}
       <MatchBar />
 
       <div className="d-flex">
