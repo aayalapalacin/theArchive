@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/archive_recommendation/archive_box.css";
+import { Link } from "react-router-dom";
 
 function archiveBox() {
   return (
