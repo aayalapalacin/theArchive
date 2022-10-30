@@ -4,6 +4,7 @@ import MatchBar from "./product_show/matchBar";
 import { Link, useLocation } from "react-router-dom";
 import ArchiveMatchScore from "./archive_recommendation/archive_match_score";
 import ArchiveTxt from "./product_show/archiveTxt";
+import { CircleProgress } from "react-gradient-progress";
 
 function archiveBox() {
   const location = useLocation();
@@ -14,14 +15,22 @@ function archiveBox() {
   return (
     <div className="border border-muted rounded">
       <div className="d-flex p-3">
-        <div className="h6">
+        <div className="h6 me-4">
           <p className="fw-bold">Archive</p>
           <ArchiveTxt />
         </div>
 
-        <div className="p-1">
-          {/* <img src="https://i.imgur.com/uCdRz84.png" height="100px"></img> */}
-          <ArchiveMatchScore archiveRating={jean.match} />
+        <div className="p-1" id="background">
+          <CircleProgress
+            percentage={jean.match}
+            strokeWidth={8}
+            width={120}
+            fontSize={24}
+            fontColor={"black"}
+            strokeLinecap={"square"}
+            primaryColor={["#A6253F", "#A6253F"]}
+            secondaryColor={"white"}
+          />
         </div>
       </div>
 

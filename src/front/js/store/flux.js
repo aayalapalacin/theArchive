@@ -8,15 +8,15 @@ const getState = ({ getStore, getActions, setStore }) => {
     actions: {
       addPc9: (data) => {
         const store = getStore();
-        setStore({ pc9: [...store.pc9, data] });
+        setStore({ pc9: [data] });
       },
       addWaist: (data) => {
         const store = getStore();
-        setStore({ waist: [...store.pc9, data] });
+        setStore({ waist: [data] });
       },
       addLength: (data) => {
         const store = getStore();
-        setStore({ length: [...store.pc9, data] });
+        setStore({ length: [data] });
       },
     },
   };
