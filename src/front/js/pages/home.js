@@ -69,7 +69,7 @@ export const Home = ({}) => {
         <WhatsMySize />
       </div>
       <div className="row waistAndLength">
-        <WaistAndLength />
+        <WaistAndLength product={jean} />
       </div>
       <div className="row addToBag hide-in-mobile-view">
         <AddToBag />
