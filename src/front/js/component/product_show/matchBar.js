@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { Context } from "../../store/appContext";
 import "../../../styles/matchBar.css";
 import { leviDatabase } from "../../../util/levi_database";
@@ -18,10 +18,16 @@ function MatchBar() {
   );
   let waistHomeAvg = pc9Match[0]?.Waist[waistInput];
   let waistStoreAvg = jean?.Waist[waistInput];
+  console.log("waistStoreAvg", waistStoreAvg);
+  console.log("waistHomeAvg", waistHomeAvg);
+  const [matchBarMargin, setmatchBarMargin] = useState(
+    waistHomeAvg == waistStoreAvg ? 122 : waistHomeAvg > waistStoreAvg ? 0 : 245
+  );
+  console.log(matchBarMargin, "useState");
 
   return (
     <div>
-      <div className="progress" style={{ height: "0px" }}>
+      <div className="progress d-none">
         <div
           className="progress-bar w-25"
           role="progressbar"
@@ -31,9 +37,10 @@ function MatchBar() {
           aria-valuemax="100"
         ></div>
       </div>
-      <div className="progress mx-4 " style={{ height: "13px" }}>
+      <div className="progress mx-4 ">
         <div
-          className="progress-bar w-25"
+          className="progress-bar hahah w-25 "
+          style={{ marginLeft: matchBarMargin }}
           role="progressbar"
           aria-label="Example 20px high"
           aria-valuenow="25"
