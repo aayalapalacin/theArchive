@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-md navbar-light bg-light">
       <div className="container">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -19,16 +19,16 @@ export const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">SHOP</li>
+          <ul className="navbar-nav">
+            <li className="nav-item">SHOP</li>
           </ul>
 
-          <ul class="navbar-nav">
-            <li class="nav-item">DISCOVER</li>
+          <ul className="navbar-nav">
+            <li className="nav-item">DISCOVER</li>
           </ul>
 
-          <ul class="navbar-nav">
-            <li class="nav-item">SECONDHAND</li>
+          <ul className="navbar-nav">
+            <li className="nav-item">SECONDHAND</li>
           </ul>
         </div>
 

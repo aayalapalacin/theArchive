@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "src/front/styles/archiveBox.css";
+// import "../../styles/archiveBox.css";
+import MatchBar from "./product_show/matchBar";
 
 function archiveBox() {
   return (
@@ -22,6 +23,7 @@ function archiveBox() {
       <div>
         <img src="https://i.imgur.com/3QhESmN.png" width="95%" />
       </div>
+      <MatchBar />
 
       <div className="d-flex">
         <a href="" className="text-dark font-weight-bold p-2">

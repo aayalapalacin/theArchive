@@ -23,7 +23,7 @@ export const Home = ({}) => {
       {/* navbar in navbar.js and layout.js */}
 
       <div className="text-center">
-        <hr class="solid" />
+        <hr className="solid" />
         <div>
           <p>
             <img src="https://i.imgur.com/Byxw9LD.png" height="20px" />

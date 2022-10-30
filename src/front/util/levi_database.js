@@ -347,6 +347,7 @@ export const leviDatabase = [
       "https://lsco.scene7.com/is/image/lsco/726930111-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414",
   },
   {
+    // revise photos
     Identifier: "139420011",
     Product_Name_Taxonomy_US: "721 High Rise Button Front Skinny Women's Jeans",
     Size_Group_Taxonomy_US: "Womens",
