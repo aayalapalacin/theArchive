@@ -29,7 +29,6 @@ function WaistLengthInput(props) {
     >
       {(formik) => (
         <div>
-          {console.log("test", formik.values)}
           <div className="row archiveBackBtn">
             <div className="col-1">
               <FontAwesomeIcon
@@ -78,7 +77,6 @@ function WaistLengthInput(props) {
               />
             </div>
           </div>
-          {console.log(formik.values.waistInput, "tester")}
           <div className="row submit">
             <button
               onClick={() => {

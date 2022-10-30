@@ -18,7 +18,7 @@ const SizeAndColor = ({ jean }) => {
       width="16"
       height="16"
       fill="currentColor"
-      class="bi bi-chevron-down"
+      className="bi bi-chevron-down"
       viewBox="0 0 16 16"
     >
       <path

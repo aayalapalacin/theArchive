@@ -7,7 +7,7 @@ function Click_photo({ jean }) {
     <div className="container">
       <div
         id="carouselExampleIndicators"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="true"
       >
         <div class="carousel-indicators">
@@ -15,7 +15,7 @@ function Click_photo({ jean }) {
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -32,92 +32,63 @@ function Click_photo({ jean }) {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
               src={
                 jean?.ImgFront ||
                 "https://lsco.scene7.com/is/image/lsco/362550058-front-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414"
               }
-              class="d-block w-100"
+              className="d-block w-100"
               alt="photo1"
             />{" "}
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src={
                 jean?.ImgSide ||
                 "https://lsco.scene7.com/is/image/lsco/362550058-side-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414"
               }
-              class="d-block w-100"
+              className="d-block w-100"
               alt="photo2"
             />{" "}
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src={
                 jean?.ImgBack ||
                 "https://lsco.scene7.com/is/image/lsco/362550058-back-pdp?fmt=avif&amp;qlt=40&amp;resMode=bisharp&amp;op_usm=0.6,0.6,8&amp;fit=crop,0&amp;wid=450&amp;hei=414"
               }
-              class="d-block w-100"
+              className="d-block w-100"
               alt="photo3"
             />{" "}
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
-      {/* <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            
-          </div>
-          <div class="carousel-item">
-            
-          </div>
-          <div class="carousel-item">
-            
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="">Next</span>
-        </button>
-      </div> */}
     </div>
   );
 }
