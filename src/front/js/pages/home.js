@@ -11,7 +11,7 @@ import WhatsMySize from "../component/product_show/whats_my_size";
 import { Footer } from "../component/footer";
 import ProductPrice from "../component/product_show/product_price";
 import ShippingAndQuantity from "../component/product_show/shipping_and_quantity";
-import archiveBox from "../component/archive_box";
+import ArchiveBox from "../component/Archive_box";
 import { Link, useLocation } from "react-router-dom";
 
 export const Home = ({}) => {
@@ -47,8 +47,7 @@ export const Home = ({}) => {
 
       <br />
 
-      <div>the archive box</div>
-      <archiveBox />
+      <ArchiveBox />
 
       <div className="row sizeColor">
         <Size_and_color jean={jean} />
