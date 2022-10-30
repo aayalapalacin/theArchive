@@ -7,53 +7,55 @@ export const ArchiveMatch = (input = "362550058") => {
   let fiftyPercentMatch = [];
   let twentyFivePercentMatch = [];
 
-  let inputProduct = leviDatabase.filter((item) => item.Identifier == input);
+  let inputProduct = leviDatabase.filter((item) => item.Identifier == input)[0];
+  let inputProductFitTaxonomy = new Set();
+  inputProduct.Fit_Taxonomy_US.split(",").forEach((fit) => {
+    inputProductFitTaxonomy.add(fit.trim());
+  });
 
-  console.log(inputProduct);
+  // console.log(inputProductFitTaxonomy);
+  // console.log(inputProduct);
+  // console.log(leviDatabase.length);
   for (let i = 0; i < leviDatabase.length; i++) {
     if (leviDatabase[i].Identifier != input) {
       if (
         leviDatabase[i].Size_Group_Taxonomy_US ==
-          inputProduct[0].Size_Group_Taxonomy_US &&
-        leviDatabase[i].Gender_Taxonomy_US ==
-          inputProduct[0].Gender_Taxonomy_US &&
-        leviDatabase[i].Fit_Taxonomy_US == inputProduct[0].Fit_Taxonomy_US &&
+          inputProduct.Size_Group_Taxonomy_US &&
+        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
+        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
         leviDatabase[i].Stretch_Taxonomy_US ==
-          inputProduct[0].Stretch_Taxonomy_US &&
+          inputProduct.Stretch_Taxonomy_US &&
         leviDatabase[i].Color_Group_Taxonomy_US ==
-          inputProduct[0].Color_Group_Taxonomy_US
+          inputProduct.Color_Group_Taxonomy_US
       ) {
         leviDatabase[i]["match"] = 100;
         oneHundredPercentMatch.push(leviDatabase[i]);
       } else if (
         leviDatabase[i].Size_Group_Taxonomy_US ==
-          inputProduct[0].Size_Group_Taxonomy_US &&
-        leviDatabase[i].Gender_Taxonomy_US ==
-          inputProduct[0].Gender_Taxonomy_US &&
-        leviDatabase[i].Fit_Taxonomy_US == inputProduct[0].Fit_Taxonomy_US &&
-        leviDatabase[i].Stretch_Taxonomy_US ==
-          inputProduct[0].Stretch_Taxonomy_US
+          inputProduct.Size_Group_Taxonomy_US &&
+        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
+        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
+        leviDatabase[i].Stretch_Taxonomy_US == inputProduct.Stretch_Taxonomy_US
       ) {
         leviDatabase[i]["match"] = 85;
         eightyFivePercentMatch.push(leviDatabase[i]);
       } else if (
         leviDatabase[i].Size_Group_Taxonomy_US ==
-          inputProduct[0].Size_Group_Taxonomy_US &&
-        leviDatabase[i].Gender_Taxonomy_US ==
-          inputProduct[0].Gender_Taxonomy_US &&
-        leviDatabase[i].Fit_Taxonomy_US == inputProduct[0].Fit_Taxonomy_US
+          inputProduct.Size_Group_Taxonomy_US &&
+        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
+        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i])
       ) {
         leviDatabase[i]["match"] = 75;
         seventyFivePercentMatch.push(leviDatabase[i]);
       } else if (
         leviDatabase[i].Size_Group_Taxonomy_US ==
-          inputProduct[0].Size_Group_Taxonomy_US &&
-        leviDatabase[i].Gender_Taxonomy_US == inputProduct[0].Gender_Taxonomy_US
+          inputProduct.Size_Group_Taxonomy_US &&
+        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US
       ) {
         leviDatabase[i]["match"] = 50;
         fiftyPercentMatch.push(leviDatabase[i]);
       } else if (
-        leviDatabase[i].Gender_Taxonomy_US == inputProduct[0].Gender_Taxonomy_US
+        leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US
       ) {
         leviDatabase[i]["match"] = 25;
         twentyFivePercentMatch.push(leviDatabase[i]);
@@ -71,6 +73,17 @@ export const ArchiveMatch = (input = "362550058") => {
   ];
 };
 console.log(leviDatabase.length, "length");
+
+const checkFitMatch = (inputProductFitTaxonomy, potentialMatch) => {
+  // console.log("IM HERE!!!!");
+  // console.log(inputProductFitTaxonomy);
+  let potentialMatchFit = potentialMatch.Fit_Taxonomy_US?.split(",") || [];
+  let matchFound = potentialMatchFit.some((fit) =>
+    inputProductFitTaxonomy.has(fit.trim())
+  );
+  // console.log("matchFound", matchFound);
+  return matchFound;
+};
 
 export const MatchPc9 = (pc9 = "362550058") => {
   return leviDatabase.filter((item) => item.Identifier == pc9)[0];
