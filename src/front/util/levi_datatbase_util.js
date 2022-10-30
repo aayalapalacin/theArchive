@@ -1,6 +1,10 @@
 import { leviDatabase } from "./levi_database";
 
-export const ArchiveMatch = (input = "362550058") => {
+export const ArchiveMatch = (
+  input = "362550058",
+  waistInput = 28,
+  lengthInput = 28
+) => {
   let oneHundredPercentMatch = [];
   let eightyFivePercentMatch = [];
   let seventyFivePercentMatch = [];
@@ -26,7 +30,13 @@ export const ArchiveMatch = (input = "362550058") => {
         leviDatabase[i].Stretch_Taxonomy_US ==
           inputProduct.Stretch_Taxonomy_US &&
         leviDatabase[i].Color_Group_Taxonomy_US ==
-          inputProduct.Color_Group_Taxonomy_US
+          inputProduct.Color_Group_Taxonomy_US &&
+        checkMeasurementMatch(
+          waistInput,
+          lengthInput,
+          inputProduct,
+          leviDatabase[i]
+        )
       ) {
         leviDatabase[i]["match"] = 100;
         oneHundredPercentMatch.push(leviDatabase[i]);
@@ -35,7 +45,14 @@ export const ArchiveMatch = (input = "362550058") => {
           inputProduct.Size_Group_Taxonomy_US &&
         leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
         checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
-        leviDatabase[i].Stretch_Taxonomy_US == inputProduct.Stretch_Taxonomy_US
+        leviDatabase[i].Stretch_Taxonomy_US ==
+          inputProduct.Stretch_Taxonomy_US &&
+        checkMeasurementMatch(
+          waistInput,
+          lengthInput,
+          inputProduct,
+          leviDatabase[i]
+        )
       ) {
         leviDatabase[i]["match"] = 85;
         eightyFivePercentMatch.push(leviDatabase[i]);
@@ -43,7 +60,13 @@ export const ArchiveMatch = (input = "362550058") => {
         leviDatabase[i].Size_Group_Taxonomy_US ==
           inputProduct.Size_Group_Taxonomy_US &&
         leviDatabase[i].Gender_Taxonomy_US == inputProduct.Gender_Taxonomy_US &&
-        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i])
+        checkFitMatch(inputProductFitTaxonomy, leviDatabase[i]) &&
+        checkMeasurementMatch(
+          waistInput,
+          lengthInput,
+          inputProduct,
+          leviDatabase[i]
+        )
       ) {
         leviDatabase[i]["match"] = 75;
         seventyFivePercentMatch.push(leviDatabase[i]);
@@ -75,15 +98,38 @@ export const ArchiveMatch = (input = "362550058") => {
 console.log(leviDatabase.length, "length");
 
 const checkFitMatch = (inputProductFitTaxonomy, potentialMatch) => {
-  // console.log("IM HERE!!!!");
-  // console.log(inputProductFitTaxonomy);
   let potentialMatchFit = potentialMatch.Fit_Taxonomy_US?.split(",") || [];
   let matchFound = potentialMatchFit.some((fit) =>
     inputProductFitTaxonomy.has(fit.trim())
   );
-  // console.log("matchFound", matchFound);
   return matchFound;
 };
+
+const matchMeasurements = (size, optimalMeasurements, testMeasurements) => {
+  return optimalMeasurements[size] == testMeasurements[size];
+};
+
+const checkMeasurementMatch = (
+  waistInput,
+  lengthInput,
+  optimalJean,
+  testJean
+) => {
+  let isMatch =
+    matchMeasurements(waistInput, optimalJean.Waist, testJean.Waist) &&
+    matchMeasurements(lengthInput, optimalJean.Length, testJean.Length);
+  console.log("isMatch", isMatch);
+  return isMatch;
+};
+
+///// TESTING
+// checkMeasurementMatch(
+//   28,
+//   28,
+//   { Waist: { 28: 28.2 }, Length: { 28: 28.2 } },
+//   { Waist: { 28: 28.2 }, Length: { 28: 28.0 } }
+// );
+///////
 
 export const MatchPc9 = (pc9 = "362550058") => {
   return leviDatabase.filter((item) => item.Identifier == pc9)[0];
@@ -112,8 +158,8 @@ export const getRandomJeanImage = () => {
   return imagePool[Math.floor(Math.random() * imagePool.length)];
 };
 
-export const assembleRecocommendationList = (pc9) => {
-  let matches = ArchiveMatch(pc9);
+export const assembleRecocommendationList = (pc9, waistInput, lengthInput) => {
+  let matches = ArchiveMatch(pc9, waistInput, lengthInput);
   return [
     ...matches[0],
     ...matches[1],
@@ -123,9 +169,18 @@ export const assembleRecocommendationList = (pc9) => {
   ];
 };
 
-export const paginateRecommendationList = (pc9, numPerPage) => {
+export const paginateRecommendationList = (
+  pc9,
+  numPerPage,
+  waistInput,
+  lengthInput
+) => {
   let paginated = [];
-  let recommendationList = assembleRecocommendationList(pc9);
+  let recommendationList = assembleRecocommendationList(
+    pc9,
+    waistInput,
+    lengthInput
+  );
   let curPage = [];
   for (let i = 0; i < recommendationList.length; i++) {
     curPage.push(recommendationList[i]);
