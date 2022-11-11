@@ -24,9 +24,9 @@ function Pc9Input(props) {
       }}
       validationSchema={validate}
     >
-      {(formik) => (
+      {(formik, setFieldValue) => (
         <div>
-          {console.log(formik.values)}
+          {console.log(formik.values, "formik")}
           <div className="row archiveBackBtn">
             <div className="col-1">
               <FontAwesomeIcon
@@ -63,6 +63,17 @@ function Pc9Input(props) {
                 type="text"
               />
             </div>
+          </div>
+          <div className="testRun mx-auto justify-content-center align-items-center d-flex mt-3">
+            <span>No Pc9 Code?, try a test run!</span>
+            <button
+              onClick={() => {
+                setFieldValue("pc9Input", "125010384");
+              }}
+              className="btn p-1 testBtn text-light ms-1"
+            >
+              Give me PC9
+            </button>
           </div>
           <div className="row submit">
             <button
