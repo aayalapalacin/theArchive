@@ -18,22 +18,22 @@ function MatchBar() {
   let waistStoreAvg = Math.trunc(jean?.Waist[waistInput] * 100);
   console.log("waistStoreAvg", waistStoreAvg);
   console.log("waistHomeAvg", waistHomeAvg);
-  const math = (waistHomeAvg - waistStoreAvg) / 100;
-  console.log(math, "calc");
+  const waistAvgCalc = (waistHomeAvg - waistStoreAvg) / 100;
+  console.log(waistAvgCalc, "calc");
   const [matchBarMargin, setmatchBarMargin] = useState(
     waistHomeAvg == waistStoreAvg
       ? 122
-      : waistHomeAvg - waistStoreAvg == -0.29999999999999716
+      : waistAvgCalc == -0.3
       ? 245
-      : waistHomeAvg - waistStoreAvg == -0.1999999999999993
+      : waistAvgCalc == -0.2
       ? 199
-      : waistHomeAvg - waistStoreAvg == 0.09999999999999432
+      : waistAvgCalc == -0.1
       ? 161
-      : waistHomeAvg - waistStoreAvg == 0.3
+      : waistAvgCalc == 0.3
       ? 0
-      : waistHomeAvg - waistStoreAvg == 0.19999999999999574
+      : waistAvgCalc == 0.2
       ? 43
-      : waistHomeAvg - waistStoreAvg == 0.1
+      : waistAvgCalc == 0.1
       ? 88
       : 122
   );
