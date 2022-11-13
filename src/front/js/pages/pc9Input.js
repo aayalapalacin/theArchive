@@ -8,6 +8,7 @@ import TextField from "../component/textField";
 import * as Yup from "yup";
 import pc9Img from "../../img/pc9_2.png";
 import "../../styles/pc9Input.css";
+import { leviDatabase } from "../../util/levi_database";
 
 const validate = Yup.object({
   pc9Input: Yup.string()
@@ -16,9 +17,9 @@ const validate = Yup.object({
     .min(9, "must be 9 characters long"),
 });
 
+console.log(leviDatabase.length, "leviLength");
 function Pc9Input(props) {
   const [pc9Generate, setPc9Generate] = useState("");
-  console.log(pc9Generate, "pc9Generate");
   return (
     <Formik
       initialValues={{
@@ -70,7 +71,10 @@ function Pc9Input(props) {
             <span>No Pc9 Code?, try a test run!</span>
             <button
               onClick={() => {
-                formik.setFieldValue("pc9Input", "125010384");
+                let randomPc9 =
+                  leviDatabase[Math.ceil(Math.random() * leviDatabase.length)]
+                    .Identifier;
+                formik.setFieldValue("pc9Input", randomPc9);
               }}
               className="btn p-1 testBtn text-light ms-2"
             >
