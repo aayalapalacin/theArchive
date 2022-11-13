@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +17,8 @@ const validate = Yup.object({
 });
 
 function Pc9Input(props) {
+  const [pc9Generate, setPc9Generate] = useState("");
+  console.log(pc9Generate, "pc9Generate");
   return (
     <Formik
       initialValues={{
@@ -24,7 +26,7 @@ function Pc9Input(props) {
       }}
       validationSchema={validate}
     >
-      {(formik, setFieldValue) => (
+      {(formik) => (
         <div>
           {console.log(formik.values, "formik")}
           <div className="row archiveBackBtn">
@@ -68,9 +70,9 @@ function Pc9Input(props) {
             <span>No Pc9 Code?, try a test run!</span>
             <button
               onClick={() => {
-                setFieldValue("pc9Input", "125010384");
+                formik.setFieldValue("pc9Input", "125010384");
               }}
-              className="btn p-1 testBtn text-light ms-1"
+              className="btn p-1 testBtn text-light ms-2"
             >
               Give me PC9
             </button>
