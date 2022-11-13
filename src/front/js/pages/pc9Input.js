@@ -10,11 +10,15 @@ import pc9Img from "../../img/pc9_2.png";
 import "../../styles/pc9Input.css";
 import { leviDatabase } from "../../util/levi_database";
 
+const pc9Array = leviDatabase.map((item) => item.Identifier);
+console.log(pc9Array, "pc9Array");
 const validate = Yup.object({
   pc9Input: Yup.string()
     .required("This field is required")
     .max(9, "must be 9 characters long")
-    .min(9, "must be 9 characters long"),
+    .min(9, "must be 9 characters long")
+
+    .oneOf(pc9Array, "This PC9 is not in our database"),
 });
 
 console.log(leviDatabase.length, "leviLength");
