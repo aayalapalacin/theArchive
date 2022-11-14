@@ -58,23 +58,29 @@ function WaistLengthInput(props) {
           <div className="row WaistInput">
             <div>
               <TextField
-                className="waistLengthInputField ms-2"
+                className="waistLengthInputField ms-2 border border-secondary"
                 label="W"
                 id="waistInput"
                 name="waistInput"
                 type="text"
               />
+            </div>{" "}
+            <div className="justify-content-center d-flex text-danger mb-3">
+              {formik.errors.waistInput}
             </div>
           </div>
           <div className="row LengthInput">
             <div>
               <TextField
-                className="waistLengthInputField ms-2"
+                className="waistLengthInputField border border-secondary ms-2"
                 label="L"
                 id="lengthInput"
                 name="lengthInput"
                 type="text"
               />
+            </div>
+            <div className="justify-content-center d-flex text-danger ">
+              {formik.errors.lengthInput}
             </div>
           </div>
           <div className="row submit">
