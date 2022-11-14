@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Formik, Form } from "formik";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TextField from "../component/textField";
 import * as Yup from "yup";
 import wLImg from "../../img/PC9-W26_L28.png";
@@ -19,6 +19,7 @@ const validate = Yup.object({
 });
 
 function WaistLengthInput(props) {
+  const navigate = useNavigate();
   return (
     <Formik
       initialValues={{
@@ -77,6 +78,14 @@ function WaistLengthInput(props) {
                 id="lengthInput"
                 name="lengthInput"
                 type="text"
+                onKeyDown={(e) => {
+                  e.persist();
+                  if (e.keyCode == 13) {
+                    props.actionWaist(formik.values.waistInput);
+                    props.actionLength(formik.values.lengthInput);
+                    navigate("/pc9");
+                  }
+                }}
               />
             </div>
             <div className="justify-content-center d-flex text-danger ">

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Formik, Form } from "formik";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TextField from "../component/textField";
 import * as Yup from "yup";
 import pc9Img from "../../img/pc9_2.png";
@@ -11,7 +11,7 @@ import "../../styles/pc9Input.css";
 import { leviDatabase } from "../../util/levi_database";
 
 const pc9Array = leviDatabase.map((item) => item.Identifier);
-console.log(pc9Array, "pc9Array");
+
 const validate = Yup.object({
   pc9Input: Yup.string()
     .required("This field is required")
@@ -22,6 +22,7 @@ const validate = Yup.object({
 });
 
 function Pc9Input(props) {
+  const navigate = useNavigate();
   const [pc9Generate, setPc9Generate] = useState("");
   return (
     <Formik
@@ -30,10 +31,8 @@ function Pc9Input(props) {
       }}
       validationSchema={validate}
     >
-      {(formik, errors) => (
+      {(formik) => (
         <div>
-          {console.log(formik.values, "formik")}
-          {console.log(formik, "errors")}
           <div className="row archiveBackBtn">
             <div className="col-1">
               <FontAwesomeIcon
@@ -68,6 +67,13 @@ function Pc9Input(props) {
                 id="pc9Input"
                 name="pc9Input"
                 type="text"
+                onKeyDown={(e) => {
+                  e.persist();
+                  if (e.keyCode == 13) {
+                    props.actions(formik.values);
+                    navigate("/archive");
+                  }
+                }}
               />
             </div>
             <div className="justify-content-center d-flex text-danger">
