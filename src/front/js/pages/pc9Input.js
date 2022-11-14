@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
@@ -23,7 +23,6 @@ const validate = Yup.object({
 
 function Pc9Input(props) {
   const navigate = useNavigate();
-  const [pc9Generate, setPc9Generate] = useState("");
   return (
     <Formik
       initialValues={{
