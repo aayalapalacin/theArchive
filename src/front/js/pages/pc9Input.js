@@ -21,7 +21,6 @@ const validate = Yup.object({
     .oneOf(pc9Array, "This PC9 is not in our database"),
 });
 
-console.log(leviDatabase.length, "leviLength");
 function Pc9Input(props) {
   const [pc9Generate, setPc9Generate] = useState("");
   return (
@@ -31,9 +30,10 @@ function Pc9Input(props) {
       }}
       validationSchema={validate}
     >
-      {(formik) => (
+      {(formik, errors) => (
         <div>
           {console.log(formik.values, "formik")}
+          {console.log(formik, "errors")}
           <div className="row archiveBackBtn">
             <div className="col-1">
               <FontAwesomeIcon
@@ -69,6 +69,9 @@ function Pc9Input(props) {
                 name="pc9Input"
                 type="text"
               />
+            </div>
+            <div className="justify-content-center d-flex text-danger">
+              {formik.errors.pc9Input}
             </div>
           </div>
           <div className="testRun mx-auto justify-content-center align-items-center d-flex mt-3">
