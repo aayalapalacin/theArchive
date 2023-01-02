@@ -47,7 +47,7 @@ export const Home = ({}) => {
 
       <br />
 
-      <ArchiveBox />
+      <ArchiveBox jean={jean} />
 
       <div className="row sizeColor">
         <Size_and_color jean={jean} />
