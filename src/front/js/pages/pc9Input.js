@@ -79,7 +79,7 @@ function Pc9Input(props) {
               {formik.errors.pc9Input}
             </div>
           </div>
-          <div className="testRun mx-auto justify-content-center align-items-center d-flex mt-3">
+          {/* <div className="testRun mx-auto justify-content-center align-items-center d-flex mt-3">
             <span>No Pc9 Code?, try a test run!</span>
             <button
               onClick={() => {
@@ -92,7 +92,7 @@ function Pc9Input(props) {
             >
               Give me PC9
             </button>
-          </div>
+          </div> */}
           <div className="row submit">
             <button
               onClick={() => props.actions(formik.values)}
